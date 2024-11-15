@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/seva_sansthan/static/css/main.594af38e.css",
-    "main.js": "/seva_sansthan/static/js/main.5f472acf.js",
+    "main.css": "/seva_sansthan/static/css/main.47fa0515.css",
+    "main.js": "/seva_sansthan/static/js/main.443bd156.js",
     "static/js/453.0ac72fd6.chunk.js": "/seva_sansthan/static/js/453.0ac72fd6.chunk.js",
     "static/media/img2.jpeg": "/seva_sansthan/static/media/img2.0cd6974f6928db3b804b.jpeg",
     "static/media/hero-bg-2.jpg": "/seva_sansthan/static/media/hero-bg-2.01f867a60ab8858501e5.jpg",
@@ -43,14 +43,14 @@
     "static/media/hero-bg.jpg": "/seva_sansthan/static/media/hero-bg.ce7c48661db7bafd4bc4.jpg",
     "static/media/img29.jpeg": "/seva_sansthan/static/media/img29.f9dec4cd463614f36763.jpeg",
     "index.html": "/seva_sansthan/index.html",
-    "static/media/plus.svg": "/seva_sansthan/static/media/plus.fc99e4c41efacf0fd66d.svg",
-    "static/media/minus.svg": "/seva_sansthan/static/media/minus.a47ed59e5cdf57cb2a26.svg",
-    "main.594af38e.css.map": "/seva_sansthan/static/css/main.594af38e.css.map",
-    "main.5f472acf.js.map": "/seva_sansthan/static/js/main.5f472acf.js.map",
+    "static/media/plus.svg": "/seva_sansthan/static/media/plus.372e54d3ca5cc2d8c220.svg",
+    "static/media/minus.svg": "/seva_sansthan/static/media/minus.717cb5c9ffb3060767e2.svg",
+    "main.47fa0515.css.map": "/seva_sansthan/static/css/main.47fa0515.css.map",
+    "main.443bd156.js.map": "/seva_sansthan/static/js/main.443bd156.js.map",
     "453.0ac72fd6.chunk.js.map": "/seva_sansthan/static/js/453.0ac72fd6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.594af38e.css",
-    "static/js/main.5f472acf.js"
+    "static/css/main.47fa0515.css",
+    "static/js/main.443bd156.js"
   ]
 }
