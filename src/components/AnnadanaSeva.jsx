@@ -40,7 +40,7 @@ const AnnadanaSeva = () => {
   <div className="row mx-0 mt-md-2">
     
   <div className="col-md-12 px-0 d-flex justify-content-center">
-  {/* Desktop Image */}
+  {/* Desktop Image1 */}
   <img
     src="https://donations.iskconbangalore.org/annadana/assets/img/desk-krishna.png"
     alt="Krishna desktop view"
