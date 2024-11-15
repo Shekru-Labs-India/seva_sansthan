@@ -46,7 +46,7 @@ const AnnadanaSeva = () => {
     alt="Krishna desktop view"
     className="img-fluid krishna-img d-md-block d-none"
   />
-  {/* Mobile Image */}
+  {/* Mobile Image2 */}
   <img
     src="https://donations.iskconbangalore.org/annadana/assets/img/desk-krishna.png"
     alt="Krishna mobile view"
