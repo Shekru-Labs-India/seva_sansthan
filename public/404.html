@@ -7,8 +7,16 @@
 </head>
 <body>
   <script>
-    // Redirect to the main page, allowing React Router to handle routing
-    window.location.replace('/');
+    // Check if the current URL includes the GitHub Pages base path
+    var currentPath = window.location.pathname;
+    var basePath = '/seva_sansthan';
+
+    // Redirect to the index.html file of your GitHub Pages app
+    if (currentPath.startsWith(basePath)) {
+      window.location.replace(basePath + '/index.html');
+    } else {
+      window.location.replace('/index.html');
+    }
   </script>
 </body>
 </html>
