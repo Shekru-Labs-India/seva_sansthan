@@ -3,6 +3,7 @@ import "./assets/css/main.css";
 import "./assets/css/offcanvas.css";
 
 import "./assets/css/gallery.css";
+import './assets/css/style.css';
 
 
 import { HashRouter, Route, Routes } from "react-router-dom";
@@ -20,6 +21,8 @@ import DailyDarshan from "./components/DailyDarshan";
 import Costume from "./components/Costume";
 import DignitariesVisit from "./components/DignitariesVisit";
 import DeityDarshan from "./components/DeityDarshan";
+import GoSeva from "./components/GoSeva";
+import AnnadanaSeva from "./components/AnnadanaSeva";
 
 
 
@@ -43,6 +46,9 @@ function App() {
                 <Route path="/costume" element={<Costume />} />
                 <Route path="/dignitariesvisit " element={<DignitariesVisit />} />
                 <Route path="/deity" element={<DeityDarshan />} />
+                <Route path="/goseva" element={<GoSeva />} />
+                <Route path="/annadanaseva" element={<AnnadanaSeva />} />
+
 
    </Routes>
 

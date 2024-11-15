@@ -1,0 +1,27 @@
+.donation-section {
+    background-color: #f8e6e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .donation-section h2,
+  .donation-section h3,
+  .form-check-label {
+    color: #5a3a29;
+  }
+  .btn-option {
+    background-color: #5a3a29;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .btn-option.special {
+    width: 100%;
+  }
+
+  .krishna{
+    background-color: #f8e6e0;
+  }

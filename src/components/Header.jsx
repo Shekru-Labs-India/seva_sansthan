@@ -87,32 +87,15 @@ const Header = () => {
                      <li className="menu-item-children">
                        <a href="javascript:void(0)">Donate</a>
                        <ul className="sub-menu">
+                         
                          <li>
-                           <a href="donations.html">Become a Patron</a>
+                           <Link to="/annadanaseva">Annadana Seva</Link>
                          </li>
                          <li>
-                           <a href="donations-details.html">Festival Seva</a>
+                           <Link to="/goseva">Go Seva</Link>
                          </li>
-                         <li>
-                           <a href="annadana.html">Annadana Seva</a>
-                         </li>
-                         <li>
-                           <a href="go-seva.html">Go Seva</a>
-                         </li>
-                         <li>
-                           <a href="donations-details.html">Nitya Seva</a>
-                         </li>
-                         <li>
-                           <a href="donations-details.html">
-                             Mandira Nirmana Seva
-                           </a>
-                         </li>
-                         <li>
-                           <a href="donations-details.html">Book Distribution</a>
-                         </li>
-                         <li>
-                           <a href="donations-details.html">General Donations</a>
-                         </li>
+                        
+                         
                        </ul>
                      </li>
                      <li className="menu-item-children">
@@ -124,9 +107,7 @@ const Header = () => {
                          <li>
                            <Link to="/cowprotection">Cow Protection</Link>
                          </li>
-                         <li>
-                           <a href="pilgrimage.html">Pilgrimage Tours</a>
-                         </li>
+                        
                          <li>
                            <Link to="/projects">Projects</Link>
                          </li>
@@ -154,9 +135,7 @@ const Header = () => {
                          <li>
                            <a href="dignitaries-visit.html">Dignitaries Visit</a>
                          </li>
-                         <li>
-                           <a href="gallery-details.html">Videos</a>
-                         </li>
+                        
                        </ul>
                      </li>
                      <li className="menu-item-children">
