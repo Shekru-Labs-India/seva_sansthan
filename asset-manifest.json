@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/seva_sansthan/static/css/main.3674dbdc.css",
-    "main.js": "/seva_sansthan/static/js/main.8badc884.js",
+    "main.css": "/seva_sansthan/static/css/main.8ef6a833.css",
+    "main.js": "/seva_sansthan/static/js/main.d83f3631.js",
     "static/js/453.0ac72fd6.chunk.js": "/seva_sansthan/static/js/453.0ac72fd6.chunk.js",
     "static/media/count-bg.jpg": "/seva_sansthan/static/media/count-bg.fb69407a84c6f0cc0af4.jpg",
     "static/media/video-sec-bg.jpg": "/seva_sansthan/static/media/video-sec-bg.0dd3c70814ebfc1ced40.jpg",
     "static/media/img2.jpeg": "/seva_sansthan/static/media/img2.0cd6974f6928db3b804b.jpeg",
     "static/media/hero-bg-2.jpg": "/seva_sansthan/static/media/hero-bg-2.01f867a60ab8858501e5.jpg",
     "static/media/support-bg.jpg": "/seva_sansthan/static/media/support-bg.272327af0dd7f939fe1c.jpg",
-    "static/media/about-pic.png": "/seva_sansthan/static/media/about-pic.4a92b86d2b1445465bc2.png",
     "static/media/img21.jpeg": "/seva_sansthan/static/media/img21.3bc566c9232d519d41f8.jpeg",
     "static/media/img15.jpeg": "/seva_sansthan/static/media/img15.0aa4b2b32e069fabea65.jpeg",
     "static/media/img23.jpeg": "/seva_sansthan/static/media/img23.25bf29f60b523c720f5b.jpeg",
     "static/media/breadcrumb-image.jpg": "/seva_sansthan/static/media/breadcrumb-image.e9d04c4cf0d3583ca1bb.jpg",
     "static/media/img22.jpeg": "/seva_sansthan/static/media/img22.548ba6832cd2fd220bd1.jpeg",
     "static/media/hero-bg-3.jpg": "/seva_sansthan/static/media/hero-bg-3.91867e0f01ca0f9c5c3b.jpg",
-    "static/media/about-shape.png": "/seva_sansthan/static/media/about-shape.a4da70062c87360d5e80.png",
+    "static/media/food-distribution2.png": "/seva_sansthan/static/media/food-distribution2.c9520c94f59a03a84c68.png",
     "static/media/img12.jpeg": "/seva_sansthan/static/media/img12.7cd42b7f9d5cbbcae0a8.jpeg",
     "static/media/img1.jpeg": "/seva_sansthan/static/media/img1.1df8df514290e90e96a4.jpeg",
     "static/media/hero-bg-4.jpg": "/seva_sansthan/static/media/hero-bg-4.0363eeeaab789a2983b4.jpg",
@@ -45,7 +44,10 @@
     "static/media/img9.jpeg": "/seva_sansthan/static/media/img9.1e0c9974c1ec9412b618.jpeg",
     "static/media/team02.png": "/seva_sansthan/static/media/team02.72c05bf93a598dca1b26.png",
     "static/media/img30.jpeg": "/seva_sansthan/static/media/img30.cdb847e84bb20cc4eeb8.jpeg",
+    "static/media/about-pic.jpg": "/seva_sansthan/static/media/about-pic.4643516db68dfd8a907f.jpg",
+    "static/media/food-distribution1.png": "/seva_sansthan/static/media/food-distribution1.da4342c9dc463bced72f.png",
     "static/media/img28.jpeg": "/seva_sansthan/static/media/img28.a32e3452af3549169fd9.jpeg",
+    "static/media/background-2.png": "/seva_sansthan/static/media/background-2.e064d8adc0d3a3863701.png",
     "static/media/hero-bg.jpg": "/seva_sansthan/static/media/hero-bg.ce7c48661db7bafd4bc4.jpg",
     "static/media/img29.jpeg": "/seva_sansthan/static/media/img29.f9dec4cd463614f36763.jpeg",
     "static/media/background-1.png": "/seva_sansthan/static/media/background-1.7d752d609295db249c75.png",
@@ -53,12 +55,12 @@
     "index.html": "/seva_sansthan/index.html",
     "static/media/plus.svg": "/seva_sansthan/static/media/plus.372e54d3ca5cc2d8c220.svg",
     "static/media/minus.svg": "/seva_sansthan/static/media/minus.717cb5c9ffb3060767e2.svg",
-    "main.3674dbdc.css.map": "/seva_sansthan/static/css/main.3674dbdc.css.map",
-    "main.8badc884.js.map": "/seva_sansthan/static/js/main.8badc884.js.map",
+    "main.8ef6a833.css.map": "/seva_sansthan/static/css/main.8ef6a833.css.map",
+    "main.d83f3631.js.map": "/seva_sansthan/static/js/main.d83f3631.js.map",
     "453.0ac72fd6.chunk.js.map": "/seva_sansthan/static/js/453.0ac72fd6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3674dbdc.css",
-    "static/js/main.8badc884.js"
+    "static/css/main.8ef6a833.css",
+    "static/js/main.d83f3631.js"
   ]
 }
