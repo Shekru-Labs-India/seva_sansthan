@@ -13,7 +13,7 @@ const CowProtection = () => {
    <Header/>
 
   {/* blog left sidebar section */}
-  <section className="blog py-8">
+  <section className="blog pt-4 pb-0">
     <div className="container">
       <div className="row animate__animated wow animate__fadeInUp">
         {/* blog section */}
@@ -25,7 +25,7 @@ const CowProtection = () => {
                   <figure className="mb-0">
                     <img
                       src="https://www.iskconbangalore.org/wp-content/uploads/2015/11/a15-iskcon-goshala-1200x800.jpg"
-                      className="img-fluid"
+                      className="img-fluid img-thumbnail rounded-4"
                       alt="news articles"
                     />
                   </figure>
@@ -37,13 +37,13 @@ const CowProtection = () => {
                 </div>
                 <div className="col-12 mt-3">
                   <div className="mt-4 post-wrap">
-                    <h2 className="text-primary">Cow Protection</h2>
+                    <h2 className="text-warning fw-bold">Cow Protection</h2>
                     <p className="post-desc">
                       Srila Prabhupada writes: The human society should
                       recognize the importance of the cow and the bull and thus
                       give all protection to these important animals.
                     </p>
-                    <h3 className="text-primary">
+                    <h3 className="text-warning fw-bold">
                       <strong>Protect Cows… Protect our Civilization</strong>
                     </h3>
                     <p className="post-desc">
@@ -71,7 +71,7 @@ const CowProtection = () => {
                       flesh, civilized men must subsist on various milk and
                       agricultural products.
                     </p>
-                    <h3 className="text-primary">Pancha Gavya</h3>
+                    <h3 className="text-warning fw-bold">Pancha Gavya</h3>
                     <p>In the Srimad Bhagavatam it is said:</p>
                     <p className="post-desc">
                       gavah panca pavitrani: the cows deliver five products and
@@ -101,7 +101,7 @@ const CowProtection = () => {
                       deities.
                     </p>
                     <EventCard/>
-                    <h3 className="text-primary">
+                    <h3 className="text-warning fw-bold">
                       Cow – The Worshipable Animal
                     </h3>
                     <p>
@@ -125,7 +125,7 @@ const CowProtection = () => {
                       Vedas it is mentioned that all the demigods reside in the
                       body of a cow. So Hindus worship the cow.
                     </p>
-                    <h3 className="text-primary">Goshala</h3>
+                      <h3 className="text-warning fw-bold">Goshala</h3>
                     <p className="post-desc">
                       The cows are an integral part of the temples and their
                       upkeep is one of the prime activities. In India, most of

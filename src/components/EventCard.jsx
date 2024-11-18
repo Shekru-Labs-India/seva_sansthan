@@ -1,13 +1,14 @@
 import React from 'react';
+import background from '../assets/images/avatar/background-2.png'
 
 const EventCard = () => {
   return (
-<section className="events py-4">
+<section className="events pt-0 pb-4">
       <div className="container">
-        <div className="row">
+        <div className="row my-3">
           <div className="col-12">
-            <div className="row mt-4 mt-lg-5 align-items-center position-relative g-0">
-              <div className="col box-wrap">
+            <div className="row mt-4 mt-lg-2 align-items-center position-relative ">
+              <div className="col box-wrap border border-warning rounded-4 shadow-lg">
                 <div className="row">
                   <div className="col-12 col-lg-4 mb-3 mb-lg-0">
                     <div className="ev-card align-items-start text-center text-lg-start p-3">

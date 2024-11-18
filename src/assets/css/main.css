@@ -2088,7 +2088,7 @@ blockquote cite::before {
   padding-top: 5rem;
   padding-bottom: 2rem;
   position: relative;
-  border-top: 2px solid silver;
+  border-top: 2px solid #ff921c;
 }
 .footer h1,
 .footer h2,
@@ -3412,10 +3412,11 @@ div.zoom img:hover {
 }
 .about-sec .about-images .main-pic {
   position: absolute;
+  top: 85px;
   left: 0;
   right: 0;
   bottom: 0;
-  max-width: 382px;
+  max-width: 517px;
   margin: 0 auto;
   width: 100%;
 }

@@ -4,7 +4,7 @@ import Header from "./Header";
 import hero4 from "../assets/images/hero/hero-bg-4.jpg";
 import hero3 from "../assets/images/hero/hero-bg-3.jpg";
 import hero2 from "../assets/images/hero/hero-bg-2.jpg";
-import aboutShape from "../assets/images/section/about-shape.png";
+
 import background from "../assets/images/avatar/background-1.png";
 import team01 from '../assets/images/icons/about01.png'
 import team02 from '../assets/images/icons/about02.png'
@@ -13,7 +13,7 @@ import team2 from '../assets/images/team/team02.png'
 import team3 from '../assets/images/team/team03.png'
 import team4 from '../assets/images/team/team04.png'
 import EventCard from "./EventCard";
-import about from '../assets/images/section/about-pic.png'
+import about from '../assets/images/section/about-pic.jpg'
 const Home = () => {
   return (
     <>
@@ -102,7 +102,7 @@ const Home = () => {
           <div className="row justify-content-center align-items-center">
             <div className="col-xl-6 col-lg-6 col-md-10">
               <p className="mb-3 theme-text-primary fs-5 fw-bold"></p>
-              <h2 className="mb-4 display-6 head">Who we are</h2>
+              <h2 className="mb-4 display-6 head text-warning">Who we are</h2>
               <p className="mb-3 text-justify lh-lg">
                 ISKCON (International Society for Krishna Consciousness) is a
                 Hindu religious organization that was founded in 1966 in New
@@ -137,11 +137,11 @@ const Home = () => {
             <div className="col-xl-6 col-lg-6 order-0 order-lg-2">
               <div className="about-images">
                 <div />
-                <img src={aboutShape} alt="background" className="img-fluid" />
+                
                 <img
                   src={about}
-                  alt="image"
-                  className="main-pic"
+                  
+                  className=" img-fluid rounded-4 img-thumbnail"
                 />
               </div>
             </div>
@@ -182,14 +182,14 @@ const Home = () => {
           <div className="row mb-5">
             <div className="col-12 text-center">
               <p className="text fw-bold mb-2">Our Services</p>
-              <h2 className="">Best Buddhism Academy</h2>
+              <h2 className="h3 fw-bold text-warning">Best Buddhism Academy</h2>
             </div>
           </div>
 
           <div className="row g-4">
             {/* Buddhism Granth Card */}
             <div className="col-lg-3 col-md-6">
-              <div className="card h-100 border-0 shadow-sm">
+              <div className="card h-100 border border-warning rounded-4 shadow-lg">
                 <div className="card-body text-center ">
                   <div className="mb-4">
                     <span
@@ -206,26 +206,20 @@ const Home = () => {
                       ></i>
                     </span>
                   </div>
-                  <h4 className="card-title mb-3">We Educate</h4>
+                  <h4 className="card-title mb-3 h3 fw-bold text-warning">We Educate</h4>
                   <p className="card-text text-muted mb-4">
                     The organization runs schools and educational institutions
                     that promote Hindu culture and values, as well as a broader
                     education.
                   </p>
-                  <a
-                    href="services-details.html"
-                    className="text-decoration-none fw-bold d-inline-flex align-items-center"
-                  >
-                    More Details
-                    <i className="fas fa-arrow-right ms-2"></i>
-                  </a>
+                  
                 </div>
               </div>
             </div>
 
             {/* Buddha Temple Card */}
             <div className="col-lg-3 col-md-6">
-              <div className="card h-100 border-0 shadow-sm">
+              <div className="card h-100 border border-warning rounded-4 shadow-lg">
                 <div className="card-body text-center ">
                   <div className="mb-4">
                     <span
@@ -242,26 +236,20 @@ const Home = () => {
                       ></i>
                     </span>
                   </div>
-                  <h4 className="card-title mb-3">We Help</h4>
+                  <h4 className="card-title mb-3 h3 fw-bold text-warning">We Help</h4>
                   <p className="card-text text-muted mb-4">
                     ISKCON has helped to build a sense of community among its
                     followers, providing a supportive environment for spiritual
                     growth and development.
                   </p>
-                  <a
-                    href="services-details.html"
-                    className="text-decoration-none fw-bold d-inline-flex align-items-center"
-                  >
-                    More Details
-                    <i className="fas fa-arrow-right ms-2"></i>
-                  </a>
+
                 </div>
               </div>
             </div>
 
             {/* Daily Programme Card */}
             <div className="col-lg-3 col-md-6">
-              <div className="card h-100 border-0 shadow-sm">
+              <div className="card h-100 border border-warning rounded-4 shadow-lg">
                 <div className="card-body text-center">
                   <div className="mb-4">
                     <span
@@ -278,26 +266,21 @@ const Home = () => {
                       ></i>
                     </span>
                   </div>
-                  <h4 className="card-title mb-3">We Feed</h4>
+                  <h4 className="card-title mb-3 h3 fw-bold text-warning">We Feed</h4>
                   <p className="card-text text-muted mb-4">
                     The organization runs various charitable initiatives, such
                     as food for life programs that provide meals to those in
                     need.
                   </p>
-                  <a
-                    href="services-details.html"
-                    className="text-decoration-none fw-bold d-inline-flex align-items-center"
-                  >
-                    More Details
-                    <i className="fas fa-arrow-right ms-2"></i>
-                  </a>
+
+                  
                 </div>
               </div>
             </div>
 
             {/* Saturday Prayers Card */}
             <div className="col-lg-3 col-md-6">
-              <div className="card h-100 border-0 shadow-sm">
+              <div className="card h-100 border border-warning rounded-4 shadow-lg">
                 <div className="card-body text-center ">
                   <div className="mb-4">
                     <span
@@ -314,19 +297,13 @@ const Home = () => {
                       ></i>
                     </span>
                   </div>
-                  <h4 className="card-title mb-3">We Celebrate</h4>
+                  <h4 className="card-title mb-3 h3 fw-bold text-warning">We Celebrate</h4>
                   <p className="card-text text-muted mb-4">
                     We Celebrate ISKCON holds numerous festivals and
                     celebrations throughout the year, which serve as a means of
                     spreading Krishna Consciousness across the world.
                   </p>
-                  <a
-                    href="services-details.html"
-                    className="text-decoration-none fw-bold d-inline-flex align-items-center"
-                  >
-                    More Details
-                    <i className="fas fa-arrow-right ms-2"></i>
-                  </a>
+                  
                 </div>
               </div>
             </div>
@@ -376,7 +353,7 @@ const Home = () => {
               className="col-12 col-md-6 col-lg-3 mb-5 mb-lg-0 animate__animated wow animate__fadeInLeft"
               data-wow-delay="0.5s"
             >
-              <div className="team-card">
+              <div className="team-card border border-warning rounded-4 shadow-lg">
                 <figure className="mb-0 overflow-hidden">
                   <img
                     src={team1}
@@ -385,7 +362,7 @@ const Home = () => {
                   />
                 </figure>
                 <div className="text-center p-3 pb-0">
-                  <p className="fs-5 mb-3 fw-bold">Chandaka Siddha</p>
+                  <p className="fs-5 mb-3 fw-bold text-warning" >Chandaka Siddha</p>
                   <p className="mb-0 theme-text-accent-two">
                     Protestant Clergy
                   </p>
@@ -397,7 +374,7 @@ const Home = () => {
               className="ccol-12 col-md-6 col-lg-3 mb-5 mb-lg-0 animate__animated wow animate__fadeInLeft"
               data-wow-delay="1.6s"
             >
-              <div className="team-card">
+              <div className="team-card border border-warning rounded-4 shadow-lg">
                 <figure className="mb-0 overflow-hidden">
                   <img
                     src={team2}
@@ -406,7 +383,7 @@ const Home = () => {
                   />
                 </figure>
                 <div className="text-center p-3 pb-0">
-                  <p className="fs-5 mb-3 fw-bold">Aśvajit Doe</p>
+                  <p className="fs-5 mb-3 fw-bold text-warning">Aśvajit Doe</p>
                   <p className="mb-0 theme-text-accent-two">Senior Postor</p>
                 </div>
               </div>
@@ -416,7 +393,7 @@ const Home = () => {
               className="col-12 col-md-6 col-lg-3 mb-5 mb-lg-0 animate__animated wow animate__fadeInLeft"
               data-wow-delay="1.7s"
             >
-              <div className="team-card">
+              <div className="team-card border border-warning rounded-4 shadow-lg">
                 <figure className="mb-0 overflow-hidden">
                   <img
                     src={team3}
@@ -425,7 +402,7 @@ const Home = () => {
                   />
                 </figure>
                 <div className="text-center p-3 pb-0">
-                  <p className="fs-5 mb-3 fw-bold">Ananda Doe</p>
+                  <p className="fs-5 mb-3 fw-bold text-warning">Ananda Doe</p>
                   <p className="mb-0 theme-text-accent-two">Bhikkhu</p>
                 </div>
               </div>
@@ -435,7 +412,7 @@ const Home = () => {
               className="col-12 col-md-6 col-lg-3 mb-5 mb-lg-0 animate__animated wow animate__fadeInLeft"
               data-wow-delay="1.8s"
             >
-              <div className="team-card">
+              <div className="team-card border border-warning rounded-4 shadow-lg">
                 <figure className="mb-0 overflow-hidden">
                   <img
                     src={team4}
@@ -444,7 +421,7 @@ const Home = () => {
                   />
                 </figure>
                 <div className="text-center p-3 pb-0">
-                  <p className="fs-5 mb-3 fw-bold">Angulimala</p>
+                  <p className="fs-5 mb-3 fw-bold text-warning">Angulimala</p>
                   <p className="mb-0 theme-text-accent-two">Buddhism Speaker</p>
                 </div>
               </div>
@@ -454,8 +431,22 @@ const Home = () => {
         </div>
       </section>
       {/* best counts section */}
-      <section className="counts py-8">
-        <div className="container">
+      <section className="counts py-8" style={{ position: 'relative' }}>
+        {/* Dark overlay */}
+        <div 
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: 'rgba(0, 0, 0, 0.5)', // Adjust opacity as needed
+            zIndex: 1
+          }}
+        />
+        
+        {/* Existing content - now with higher z-index */}
+        <div className="container" style={{ position: 'relative', zIndex: 2 }}>
           <div className="row">
             <div className="col-12 col-lg-12 mb-5 mb-lg-0 text-center">
               <h2 className="display-2 mb-3 head theme-text-white">

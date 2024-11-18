@@ -68,7 +68,7 @@ const Footer = () => {
         <div className="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
           <div className="row">
             <div className="col">
-              <h3 className="h5 fw-bold mb-4">Site Links</h3>
+              <h3 className="h5 fw-bold mb-4">Site</h3>
               <ul className="link-list">
                 <li>
                   <Link to="/" className="footer-link-effect">
@@ -76,29 +76,25 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <a href="about.html" className="footer-link-effect">
-                    About Us
-                  </a>
+                  <Link to="/about" className="footer-link-effect">
+                    About
+                  </Link>
                 </li>
                 <li>
-                  <a href="donations.html" className="footer-link-effect">
+                  <Link to="/donations" className="footer-link-effect">
                     Donations
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="events.html" className="footer-link-effect">
+                  <Link to="/events" className="footer-link-effect">
                     Events
-                  </a>
+                    </Link>
                 </li>
+                
                 <li>
-                  <a href="monks.html" className="footer-link-effect">
-                    Monks
-                  </a>
-                </li>
-                <li>
-                  <a href="gallery.html" className="footer-link-effect">
+                  <Link to="/gallery" className="footer-link-effect">
                     Gallery
-                  </a>
+                  </Link>
                 </li>
               </ul>
               {/* quick link end */}
@@ -107,34 +103,34 @@ const Footer = () => {
               <h3 className="h5 fw-bold mb-4">Support</h3>
               <ul className="link-list">
                 <li>
-                  <a href="privacy.html" className="footer-link-effect">
+                  <Link to="/privacy" className="footer-link-effect">
                     Privacy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="contact.html" className="footer-link-effect">
+                  <Link to="/contact" className="footer-link-effect">
                     Contact
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="faq.html" className="footer-link-effect">
+                  <Link to="/faq" className="footer-link-effect">
                     FAQ
-                  </a>
+                    </Link>
                 </li>
                 <li>
-                  <a href="monks.html" className="footer-link-effect">
+                  <Link to="/monks" className="footer-link-effect">
                     Our Volunteers
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="about.html" className="footer-link-effect">
+                  <Link to="/about" className="footer-link-effect">
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="services.html" className="footer-link-effect">
+                  <Link to="/services" className="footer-link-effect">
                     Services
-                  </a>
+                  </Link>
                 </li>
               </ul>
               {/* Support link end */}
@@ -155,15 +151,20 @@ const Footer = () => {
             <Link to="">
             <i className="fa-brands fa-facebook"></i>
             </Link>
-            <Link to="">
-            <i className="fa-brands fa-x-twitter"></i>
-            </Link>
+            
             <Link to="">
             <i className="fa-brands fa-linkedin"></i>
             </Link>
             <Link to="">
             <i className="fa-brands fa-youtube"></i>
             </Link>
+            <Link to="">
+            <i className="fa-brands fa-google"></i>
+            </Link>
+            <Link to="">
+            <i className="fa-brands fa-instagram"></i>
+            </Link>
+            
           </div>
         </div>
       </div>

@@ -18,24 +18,24 @@ const Projects = () => {
       <div className="row align-items-center">
         <div className="col-12 mb-5">
           <div className="text-start">
-            <h1 className="mb-0 display-6 head">Projects</h1>
+            <h1 className="mb-0 display-6 h3 fw-bold text-warning">Projects</h1>
           </div>
         </div>
         <div className="col-12">
           <div className="row">
             <div className="col-12 col-md-6 col-lg-4 mb-5" data-aos="fade-down">
-              <div className="card-wrap">
+              <div className="card-wrap border border-warning rounded-4 shadow-sm">
                 <div className="con-img-wrap m-auto">
                   <img
                     src="https://www.iskconbangalore.org/wp-content/uploads/2015/11/nityaannadana1.jpg"
                     width={382}
                     height={382}
-                    className="img-fluid"
+                    className="img-fluid img-thumbnail rounded-4"
                     alt="product picture"
                   />
                 </div>
-                <div className="con-wrap pt-4">
-                  <h1 className="fs-5 mb-3 text text-truncate">
+                <div className="con-wrap">
+                  <h1 className=" mb-3 h3 fw-bold text-warning">
                     Nitya Annadana
                   </h1>
                   <p className="mb-4">
@@ -48,18 +48,18 @@ const Projects = () => {
             </div>
             {/* repetable */}
             <div className="col-12 col-md-6 col-lg-4 mb-5" data-aos="fade-down">
-              <div className="card-wrap">
+              <div className="card-wrap border border-warning rounded-4 shadow-sm">
                 <div className="con-img-wrap m-auto">
                   <img
                     src="https://www.iskconbangalore.org/wp-content/uploads/2015/11/260x140.jpg"
                     width={382}
                     height={382}
-                    className="img-fluid"
+                    className="img-fluid img-thumbnail rounded-4"
                     alt="product picture"
                   />
                 </div>
-                <div className="con-wrap pt-4">
-                  <h1 className="fs-5 mb-3 text text-truncate">
+                <div className="con-wrap ">
+                  <h1 className=" mb-3 h3 fw-bold text-warning">
                     Krishna Lila Theme Park
                   </h1>
                   <p className="mb-4">
@@ -72,18 +72,18 @@ const Projects = () => {
             </div>
             {/* repetable */}
             <div className="col-12 col-md-6 col-lg-4 mb-5" data-aos="fade-down">
-              <div className="card-wrap">
+              <div className="card-wrap border border-warning rounded-4 shadow-sm">
                 <div className="con-img-wrap m-auto">
                   <img
                     src="https://www.iskconbangalore.org/wp-content/uploads/2015/11/vrindavan-chandrodaya-mandir-1.jpg"
                     width={382}
                     height={382}
-                    className="img-fluid"
+                    className="img-fluid img-thumbnail rounded-4"
                     alt="product picture"
                   />
                 </div>
-                <div className="con-wrap pt-4">
-                  <h1 className="fs-5 mb-3 text text-truncate">
+                <div className="con-wrap ">
+                  <h1 className=" mb-3 h3 fw-bold text-warning">
                     Vrindavana Chandrodaya Mandir
                   </h1>
                   <p className="mb-4">

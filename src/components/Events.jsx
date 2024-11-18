@@ -13,17 +13,16 @@ const Events = () => {
 
    <div className="container mt-5">
   <div className="row">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
           <img
             src="https://www.iskconbangalore.org/wp-content/uploads/2024/11/diappearance-day-of-sp-300x169.jpg"
-            width={260}
-            height={145}
+            className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
           />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Srila Prabhupada’s 47th Disappearance Day
           </h2>
           <p>
@@ -35,16 +34,18 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+   
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
-          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/11/govardhan-puja-vkh-260x145.jpg" />
+          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/11/govardhan-puja-vkh-260x145.jpg" 
+          className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
+          />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Sri Govardhana Puja 2024 Celebrations at ISKCON Bangalore Temples
           </h2>
           <p>
@@ -56,20 +57,19 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+   
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
           <img
             src="https://www.iskconbangalore.org/wp-content/uploads/2024/09/harinam-diksha-sep-15-300x169.jpg"
-            width={260}
-            height={145}
+            className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
           />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Harinama Diksha on Sri Vamana Jayanti 2024 at ISKCON Bangalore
           </h2>
           <p>
@@ -81,16 +81,18 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+   
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
-          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/09/jbs-alankara-260x145.jpg" />
+          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/09/jbs-alankara-260x145.jpg" 
+          className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
+          />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             4-Day Janmashtami Alankara for Sri Jagannatha Baladeva Subhadra
           </h2>
           <p>
@@ -107,13 +109,15 @@ const Events = () => {
     
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
-          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/09/skj-ananda-mahotsava1-260x145.jpg" />
+          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/09/skj-ananda-mahotsava1-260x145.jpg" 
+          className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
+          />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Sri Krishna Janmashtami Ananda Mahotsava at KTPO, Whitefield
           </h2>
           <p>
@@ -125,16 +129,18 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
-          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/08/photo_6226266016174947309_y-260x145.jpg" />
+          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/08/photo_6226266016174947309_y-260x145.jpg" 
+          className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
+          />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Sri Krishna Janmashtami Celebrations at ISKCON Vaikuntha Hill
           </h2>
           <p>
@@ -146,16 +152,18 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+    
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
-          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/09/photo_6226524942573355822_y-260x145.jpg" />
+          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/09/photo_6226524942573355822_y-260x145.jpg" 
+          className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
+          />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Sri Krishna Janmashtami 2024 Grand Celebrations
           </h2>
           <p>
@@ -167,16 +175,18 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+    
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
-          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/07/ratha-yatra-vkh-2-260x145.jpg" />
+          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/07/ratha-yatra-vkh-2-260x145.jpg" 
+          className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
+          />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             ISKCON Vaikuntha Hill celebrated annual Ratha Yatra
           </h2>
           <p>
@@ -188,16 +198,18 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <EventCard/>
+      <EventCard/>
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
-          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/07/photo_6323326912650394312_y-260x145.jpg" />
+          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/07/photo_6323326912650394312_y-260x145.jpg" 
+          className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
+          />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Grand Snana Yatra at ISKCON Vaikuntha Hill
           </h2>
           <p>
@@ -209,16 +221,18 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+    
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
-          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/07/brahmotsava-vkh-260x145.jpg" />
+          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/07/brahmotsava-vkh-260x145.jpg" 
+          className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
+          />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Sri Brahmotsava celebrations at ISKCON Vaikuntha Hill
           </h2>
           <p>
@@ -230,16 +244,18 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+    
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
-          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/06/panihati-2024-260x145.jpg" />
+          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/06/panihati-2024-260x145.jpg" 
+          className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
+          />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Celebration of Panihati Mahotsava 2024
           </h2>
           <p>
@@ -251,16 +267,18 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+   
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
-          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/05/chandan-alankara-prahlada-narasimha-260x145.jpg" />
+          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/05/chandan-alankara-prahlada-narasimha-260x145.jpg" 
+          className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
+          />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Chandan Yatra 2024 at ISKCON Bangalore Temples{" "}
           </h2>
           <p>
@@ -275,13 +293,15 @@ const Events = () => {
     <EventCard/>
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
-          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/05/narasimha-jayanti-2024-hkhill-6-260x145.jpg" />
+          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/05/narasimha-jayanti-2024-hkhill-6-260x145.jpg" 
+          className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
+          />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Sri Narasimha Jayanti 2024 Festivities
           </h2>
           <p>
@@ -293,16 +313,18 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+    
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
-          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/05/mantra-kalasa-abhisheka-3-260x145.jpg" />
+          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/05/mantra-kalasa-abhisheka-3-260x145.jpg" 
+          className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
+          />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Mantra Kalasha Abhisheka to Their Lordships
           </h2>
           <p>
@@ -314,20 +336,19 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+    
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
-          <img
-            src="https://www.iskconbangalore.org/wp-content/uploads/2024/05/garuda-vahanotsava-300x169.jpg"
-            width={260}
-            height={145}
+          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/05/garuda-vahanotsava-300x169.jpg" 
+          className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
           />
+          
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Sri Brahmotsava 2024: Garuda Vahanotsava{" "}
           </h2>
           <p>
@@ -339,20 +360,19 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
           <img
             src="https://www.iskconbangalore.org/wp-content/uploads/2024/04/maha-kumbabhishekam-300x169.jpg"
-            width={260}
-            height={145}
+            className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
           />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Sri Brahmotsava 2024: Maha Kumbhabhisheka{" "}
           </h2>
           <p>
@@ -367,17 +387,16 @@ const Events = () => {
     <EventCard/>
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
           <img
             src="https://www.iskconbangalore.org/wp-content/uploads/2024/06/maha-pallakki-utsava-300x169.jpg"
-            width={260}
-            height={145}
+            className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
           />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Sri Brahmotsava 2024: Maha Pallakki Utsava{" "}
           </h2>
           <p>
@@ -389,16 +408,18 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+   
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
-          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/04/hanuman-jayanti-2.jpeg-260x145.jpg" />
+          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/04/hanuman-jayanti-2.jpeg-260x145.jpg" 
+          className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
+          />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">Sri Hanuman Janmotsava 2024</h2>
+          <h2 className="text-warning h3 mb-3 fw-bold">Sri Hanuman Janmotsava 2024</h2>
           <p>
             The auspicious occasion of Sri Hanuman Janmotsava, marking the
             appearance day of Hanuman Ji, was reverentially observed at both
@@ -408,16 +429,18 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+    
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
-          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/04/ramanavami-thumb-1-260x145.jpg" />
+          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/04/ramanavami-thumb-1-260x145.jpg" 
+          className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
+          />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Sri Rama Navami 2024 Celebrations at ISKCON Bangalore Temples
           </h2>
           <p>
@@ -429,16 +452,18 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+    
   </div>
   <div className="row mt-4">
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         <div className="col-4">
-          <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/04/garudashtambha-punar-pratishtapana-th-260x145.jpg" />
+            <img src="https://www.iskconbangalore.org/wp-content/uploads/2024/04/garudashtambha-punar-pratishtapana-th-260x145.jpg" 
+          className='img-fluid rounded-4 img-thumbnail w-100 h-100 object-fit-cover'
+          />
         </div>
         <div className="col-8">
-          <h2 className="text-primary">
+          <h2 className="text-warning h3 mb-3 fw-bold">
             Dhvaja Stambha (Garuda Stambha) Punar Pratishthapana Ceremony
           </h2>
           <p>
@@ -450,7 +475,7 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+    
   </div>
 </div>
 
