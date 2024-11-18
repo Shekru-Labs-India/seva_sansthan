@@ -1,10 +1,11 @@
 import React from 'react'
-import brand from "../assets/images/brand.png"
+import brand from "../assets/images/img/brand.jpg"
 import visa from "../assets/images/payments/visa.png";
 import mastercard from "../assets/images/payments/mastercard.png";
 import upi from "../assets/images/payments/upi.png"
 import paypal from "../assets/images/payments/paypal.png"
 import { Link } from 'react-router-dom';
+import EventCard from './EventCard';
 
 
 const Footer = () => {
@@ -13,6 +14,8 @@ const Footer = () => {
    <>
    <>
   {/* footer Part */}
+
+  <EventCard/>
   <footer className="footer">
     <div className="container">
       <div className="row">
@@ -178,6 +181,8 @@ const Footer = () => {
     <i className="fa-solid fa-angles-up"></i>
 
     </a>
+
+  
   </footer>
 </>
 

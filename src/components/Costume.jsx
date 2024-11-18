@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
-
+import EventCard from './EventCard'
 const Costume = () => {
   return (
     
@@ -89,6 +89,9 @@ const Costume = () => {
     </div>
   </div>
   <hr />
+
+<EventCard/>
+
   <div className="row">
     {/* Card 1 */}
     <div className="col-md-3">

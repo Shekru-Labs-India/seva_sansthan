@@ -44,12 +44,13 @@ function App() {
                 <Route path="/events" element={<Events />} />
                 <Route path="/dailydarshan" element={<DailyDarshan />} />
                 <Route path="/costume" element={<Costume />} />
-                <Route path="/dignitariesvisit " element={<DignitariesVisit />} />
+                <Route path="/dignitariesvisit" element={<DignitariesVisit />} />
                 
 
                 <Route path="/deity" element={<DeityDarshan />} />
                 <Route path="/goseva" element={<GoSeva />} />
                 <Route path="/annadanaseva" element={<AnnadanaSeva />} />
+                
 
 
    </Routes>

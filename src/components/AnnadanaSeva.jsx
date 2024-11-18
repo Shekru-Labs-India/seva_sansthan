@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
-
+import EventCard from './EventCard'
 const AnnadanaSeva = () => {
   return (
     
@@ -11,7 +11,7 @@ const AnnadanaSeva = () => {
    <div className='container-fluid mt-4'>
     <div className='row'>
       
-    <div className="col-md-7 px-md-3 px-0">
+    <div className="col-md-7 px-md-3 px-0 ">
  
     <div class="row justify-content-center">
     <div class="col-md-5 mb-3">
@@ -35,6 +35,8 @@ const AnnadanaSeva = () => {
         </div>
     </div>
 </div>
+
+<EventCard/>  
 
 
   <div className="row mx-0 mt-md-2">

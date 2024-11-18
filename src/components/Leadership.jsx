@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import Meta from './Meta'
-
+import EventCard from './EventCard'
 const Leadership = () => {
   return (
     
@@ -10,7 +10,7 @@ const Leadership = () => {
     <Meta/>
     <Header/>
   {/* about us section */}
-  <section className="about-sec py-8">
+  <section className="about-sec py-4">
     <div className="container">
       <div className="row justify-content-center align-items-center">
         <div className="col-xl-6 col-lg-6 col-md-10">
@@ -53,7 +53,10 @@ const Leadership = () => {
       </div>
     </div>
   </section>
-  <section className="about-sec py-8">
+
+<EventCard/>
+
+  <section className="about-sec py-4">
     <div className="container">
       <div className="row justify-content-center align-items-center">
         <div className="col-xl-6 col-lg-6 col-md-10">

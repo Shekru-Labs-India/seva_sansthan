@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import Meta from './Meta'
+import EventCard from './EventCard'
 
 const Events = () => {
   return (
@@ -100,8 +101,10 @@ const Events = () => {
           </p>
         </div>
       </div>
+      
     </div>
-    <div className="col-3"></div>
+    <EventCard/>
+    
   </div>
   <div className="row mt-4">
     <div className="col-9">
@@ -185,7 +188,7 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+    <EventCard/>
   </div>
   <div className="row mt-4">
     <div className="col-9">
@@ -269,7 +272,7 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+    <EventCard/>
   </div>
   <div className="row mt-4">
     <div className="col-9">
@@ -361,7 +364,7 @@ const Events = () => {
         </div>
       </div>
     </div>
-    <div className="col-3"></div>
+    <EventCard/>
   </div>
   <div className="row mt-4">
     <div className="col-9">

@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from './Footer'
 import Header from './Header'
 import Meta from './Meta'
+import EventCard from './EventCard'
 
 const CowProtection = () => {
   return (
@@ -99,6 +100,7 @@ const CowProtection = () => {
                       fuel. The cow urine and dung are used even for bathing the
                       deities.
                     </p>
+                    <EventCard/>
                     <h3 className="text-primary">
                       Cow – The Worshipable Animal
                     </h3>

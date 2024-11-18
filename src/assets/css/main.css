@@ -924,11 +924,11 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .head {
-  font-family: "Exo 2", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 900;
 }
 
@@ -2790,8 +2790,8 @@ blockquote cite::before {
 }
 .services .services-box {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px 50px;
+  grid-template-columns: repeat(4, 1fr);
+ 
 }
 .services .services-box .box-item .icon {
   width: 60px;
@@ -2839,7 +2839,7 @@ blockquote cite::before {
 }
 .services .services-box .box-item .content a {
   display: flex;
-  justify-content: flex-start;
+  justify-content:center;
 }
 .services .services-box .box-item .content a i {
   margin-left: 0.5rem;
@@ -2847,7 +2847,7 @@ blockquote cite::before {
 
 .cta {
   width: 100%;
-  background: url(../images/section/services-bg.jpg) no-repeat;
+  background: url(../images/section/video-sec-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;

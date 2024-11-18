@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from './Footer'
 import Header from './Header'
 import Meta from './Meta'
+import EventCard from './EventCard'
 
 const Objectives = () => {
   return (
@@ -102,6 +103,7 @@ const Objectives = () => {
                       get rid of our non-devotional tendencies. It also brings
                       steadiness to our materially agitated mind.
                     </p>
+                    <EventCard/>
                     <div className="overflow-hidden position-relative theme-border-radius col-12">
                       <h2 className="text-primary">
                         Create Awareness about Srila Prabhupada
@@ -171,6 +173,7 @@ const Objectives = () => {
                       read and distribute these books. Srila Prabhupada said
                       that this service of book distribution makes him happy.
                     </p>
+                    <EventCard/>
                     <div className="overflow-hidden position-relative theme-border-radius col-12">
                       <h2 className="text-primary">Missionary Development</h2>
                       <figure className="mb-0">
@@ -225,6 +228,7 @@ const Objectives = () => {
                       festivals at the temple. You can also be a patron of
                       ISKCON.
                     </p>
+                    <EventCard/>
                     <div className="overflow-hidden position-relative theme-border-radius col-12">
                       <h2 className="text-primary">
                         To increase Krishna Consciousness
@@ -287,6 +291,7 @@ const Objectives = () => {
                       Restaurant – God’s own Cuisine. The profits generated from
                       these initiatives support our charitable programs.
                     </p>
+                    <EventCard/>
                     <div className="overflow-hidden position-relative theme-border-radius col-12">
                       <h2 className="text-primary">Projects</h2>
                       <figure className="mb-0">

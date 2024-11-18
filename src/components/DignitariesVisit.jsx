@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import EventCard from './EventCard'
 
 const DignitariesVisit = () => {
   return (
@@ -56,6 +57,9 @@ const DignitariesVisit = () => {
       </div>
     </div>
   </div>
+
+<EventCard/>
+
   <div className="row mt-3">
     {/* Card 1 */}
     <div className="col-md-3 col-12">

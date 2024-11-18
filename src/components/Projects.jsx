@@ -13,7 +13,7 @@ const Projects = () => {
    <Header/>
 
   {/* Donations section */}
-  <section className="py-8 donation">
+  <section className="py-3 donation">
     <div className="container">
       <div className="row align-items-center">
         <div className="col-12 mb-5">

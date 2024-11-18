@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import EventCard from './EventCard'
 
 const GoSeva = () => {
   return (
@@ -15,6 +16,7 @@ const GoSeva = () => {
       height={555}
       alt=""
     />
+    <EventCard/>
   </div>
   <div className="container-fluid pl-lg-5 pl-md-2 pr-lg-5 pr-md-2 mt-5">
     <div className="row">
