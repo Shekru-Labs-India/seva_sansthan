@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/seva_sansthan/static/css/main.3674dbdc.css",
+    "main.css": "/seva_sansthan/static/css/main.08340042.css",
     "main.js": "/seva_sansthan/static/js/main.8badc884.js",
     "static/js/453.0ac72fd6.chunk.js": "/seva_sansthan/static/js/453.0ac72fd6.chunk.js",
     "static/media/count-bg.jpg": "/seva_sansthan/static/media/count-bg.fb69407a84c6f0cc0af4.jpg",
@@ -51,14 +51,14 @@
     "static/media/background-1.png": "/seva_sansthan/static/media/background-1.7d752d609295db249c75.png",
     "static/media/brand.jpg": "/seva_sansthan/static/media/brand.ec901702387c19547d65.jpg",
     "index.html": "/seva_sansthan/index.html",
-    "static/media/plus.svg": "/seva_sansthan/static/media/plus.372e54d3ca5cc2d8c220.svg",
-    "static/media/minus.svg": "/seva_sansthan/static/media/minus.717cb5c9ffb3060767e2.svg",
-    "main.3674dbdc.css.map": "/seva_sansthan/static/css/main.3674dbdc.css.map",
+    "static/media/plus.svg": "/seva_sansthan/static/media/plus.fc99e4c41efacf0fd66d.svg",
+    "static/media/minus.svg": "/seva_sansthan/static/media/minus.a47ed59e5cdf57cb2a26.svg",
+    "main.08340042.css.map": "/seva_sansthan/static/css/main.08340042.css.map",
     "main.8badc884.js.map": "/seva_sansthan/static/js/main.8badc884.js.map",
     "453.0ac72fd6.chunk.js.map": "/seva_sansthan/static/js/453.0ac72fd6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3674dbdc.css",
+    "static/css/main.08340042.css",
     "static/js/main.8badc884.js"
   ]
 }
