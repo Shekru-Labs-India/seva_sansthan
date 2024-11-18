@@ -15,6 +15,7 @@
   },
   "homepage": "https://Shekru-Labs-India.github.io/seva_sansthan",
   "scripts": {
+    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
