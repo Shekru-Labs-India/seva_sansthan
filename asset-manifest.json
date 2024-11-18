@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/seva_sansthan/static/css/main.0a19be97.css",
-    "main.js": "/seva_sansthan/static/js/main.4bb74b6d.js",
+    "main.css": "/seva_sansthan/static/css/main.3674dbdc.css",
+    "main.js": "/seva_sansthan/static/js/main.8badc884.js",
     "static/js/453.0ac72fd6.chunk.js": "/seva_sansthan/static/js/453.0ac72fd6.chunk.js",
     "static/media/count-bg.jpg": "/seva_sansthan/static/media/count-bg.fb69407a84c6f0cc0af4.jpg",
     "static/media/video-sec-bg.jpg": "/seva_sansthan/static/media/video-sec-bg.0dd3c70814ebfc1ced40.jpg",
     "static/media/img2.jpeg": "/seva_sansthan/static/media/img2.0cd6974f6928db3b804b.jpeg",
     "static/media/hero-bg-2.jpg": "/seva_sansthan/static/media/hero-bg-2.01f867a60ab8858501e5.jpg",
     "static/media/support-bg.jpg": "/seva_sansthan/static/media/support-bg.272327af0dd7f939fe1c.jpg",
+    "static/media/about-pic.png": "/seva_sansthan/static/media/about-pic.4a92b86d2b1445465bc2.png",
     "static/media/img21.jpeg": "/seva_sansthan/static/media/img21.3bc566c9232d519d41f8.jpeg",
     "static/media/img15.jpeg": "/seva_sansthan/static/media/img15.0aa4b2b32e069fabea65.jpeg",
     "static/media/img23.jpeg": "/seva_sansthan/static/media/img23.25bf29f60b523c720f5b.jpeg",
@@ -22,14 +23,17 @@
     "static/media/img20.jpeg": "/seva_sansthan/static/media/img20.5c26d4ed97cec1e40e84.jpeg",
     "static/media/img4.jpeg": "/seva_sansthan/static/media/img4.7743decd38294d1c44a0.jpeg",
     "static/media/img13.jpeg": "/seva_sansthan/static/media/img13.9da6f04a26a03ac34024.jpeg",
+    "static/media/team01.png": "/seva_sansthan/static/media/team01.315a6e76664e70fc19b4.png",
     "static/media/img24.jpeg": "/seva_sansthan/static/media/img24.9f749610bca79f771e85.jpeg",
     "static/media/img26.jpeg": "/seva_sansthan/static/media/img26.05e50aa541007b1421c0.jpeg",
+    "static/media/team04.png": "/seva_sansthan/static/media/team04.a3b00df8464769422a20.png",
     "static/media/img16.jpeg": "/seva_sansthan/static/media/img16.84ee95696d9c1d56c7c5.jpeg",
     "static/media/img17.jpeg": "/seva_sansthan/static/media/img17.e0dc7e9602f208708a48.jpeg",
     "static/media/img10.jpeg": "/seva_sansthan/static/media/img10.ec5960b9babbfce8aa70.jpeg",
     "static/media/img6.jpeg": "/seva_sansthan/static/media/img6.d91d4c7cd4c296cf60ac.jpeg",
     "static/media/img7.jpeg": "/seva_sansthan/static/media/img7.e99d0709d5ab35d3ab12.jpeg",
     "static/media/img8.jpeg": "/seva_sansthan/static/media/img8.9a5300092afb7a711545.jpeg",
+    "static/media/team03.png": "/seva_sansthan/static/media/team03.0b7cac57c9362f93a029.png",
     "static/media/img11.jpeg": "/seva_sansthan/static/media/img11.9ba04a30264ae612b3ae.jpeg",
     "static/media/img5.jpeg": "/seva_sansthan/static/media/img5.68af690202554db4632b.jpeg",
     "static/media/img19.jpeg": "/seva_sansthan/static/media/img19.3b7394280e2a063cd086.jpeg",
@@ -39,6 +43,7 @@
     "static/media/img31.jpeg": "/seva_sansthan/static/media/img31.c7ae4a55439ed80b59aa.jpeg",
     "static/media/img3.jpeg": "/seva_sansthan/static/media/img3.d90d246bd05ad6931bd3.jpeg",
     "static/media/img9.jpeg": "/seva_sansthan/static/media/img9.1e0c9974c1ec9412b618.jpeg",
+    "static/media/team02.png": "/seva_sansthan/static/media/team02.72c05bf93a598dca1b26.png",
     "static/media/img30.jpeg": "/seva_sansthan/static/media/img30.cdb847e84bb20cc4eeb8.jpeg",
     "static/media/img28.jpeg": "/seva_sansthan/static/media/img28.a32e3452af3549169fd9.jpeg",
     "static/media/hero-bg.jpg": "/seva_sansthan/static/media/hero-bg.ce7c48661db7bafd4bc4.jpg",
@@ -48,12 +53,12 @@
     "index.html": "/seva_sansthan/index.html",
     "static/media/plus.svg": "/seva_sansthan/static/media/plus.372e54d3ca5cc2d8c220.svg",
     "static/media/minus.svg": "/seva_sansthan/static/media/minus.717cb5c9ffb3060767e2.svg",
-    "main.0a19be97.css.map": "/seva_sansthan/static/css/main.0a19be97.css.map",
-    "main.4bb74b6d.js.map": "/seva_sansthan/static/js/main.4bb74b6d.js.map",
+    "main.3674dbdc.css.map": "/seva_sansthan/static/css/main.3674dbdc.css.map",
+    "main.8badc884.js.map": "/seva_sansthan/static/js/main.8badc884.js.map",
     "453.0ac72fd6.chunk.js.map": "/seva_sansthan/static/js/453.0ac72fd6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a19be97.css",
-    "static/js/main.4bb74b6d.js"
+    "static/css/main.3674dbdc.css",
+    "static/js/main.8badc884.js"
   ]
 }
