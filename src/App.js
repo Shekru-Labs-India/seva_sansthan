@@ -33,6 +33,7 @@ function App() {
   return (
     <>
       <HashRouter>
+      <HelmetProvider>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/mission" element={<Mission />} />
@@ -54,6 +55,7 @@ function App() {
           <Route path="/goseva" element={<GoSeva />} />
           <Route path="/annadanaseva" element={<AnnadanaSeva />} />
         </Routes>
+        </HelmetProvider>
       </HashRouter>
     </>
   );

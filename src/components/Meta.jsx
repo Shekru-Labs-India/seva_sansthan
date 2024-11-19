@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import { Helmet} from 'react-helmet-async';
 
-const Meta = () => {
+const Meta = ({ title, description, keywords }) => {
   return (
+	
     <Helmet>
       <meta charSet="utf-8"/>
       <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 
-      <title>Seva Sansthan | Empowering Communities Through Service</title>
-
-      <meta name="keywords" content="Seva Sansthan, Community Service, Social Work, NGO, Charitable Organization"/>
-      <meta name="description" content="Seva Sansthan is dedicated to serving communities through various social initiatives and empowerment programs"/>
-
+	  <title>{title || 'Seva Sansthan | Empowering Communities Through Service'}</title>
+      <meta name="description" content={description || 'Seva Sansthan is dedicated to serving communities through various social initiatives and empowerment programs'} />
+      <meta name="keywords" content={keywords || 'Seva Sansthan, Community Service, Social Work, NGO, Charitable Organization'} />
       <meta httpEquiv="content-type" content="text/html; charset=UTF-8"/>
       <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
       <meta httpEquiv="pragma" content="no-cache"/>
@@ -33,7 +32,7 @@ const Meta = () => {
       <meta property="og:type" content="website"/>
       <meta property="og:title" content="Seva Sansthan | Empowering Communities Through Service"/>
       <meta property="og:description" content="Seva Sansthan is dedicated to serving communities through various social initiatives and empowerment programs"/>
-      <meta property="og:url" content="https://sevasansthan.org/"/>
+      <meta property="og:url" content="http://krishnasikshaseva.com/"/>
       <meta property="og:site_name" content="Seva Sansthan"/>
       <meta property="og:image" content="https://sevasansthan.org/assets/seva-sansthan-logo.jpg"/>
       <meta property="og:image:alt" content="Seva Sansthan Logo"/>
@@ -45,6 +44,7 @@ const Meta = () => {
       <meta name="twitter:description" content="Seva Sansthan is dedicated to serving communities through various social initiatives and empowerment programs"/>
       <meta name="twitter:image" content="https://sevasansthan.org/assets/seva-sansthan-logo.jpg"/>
     </Helmet>
+	
   );
 };
 
