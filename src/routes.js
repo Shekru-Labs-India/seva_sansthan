@@ -1,0 +1,20 @@
+export default [
+    '/',
+    '/mission',
+    '/objective',
+    '/governance',
+    '/leadership',
+    '/fooddistribution',
+    '/cowprotection',
+    '/projects',
+    '/events',
+    '/dailydarshan',
+    '/costume',
+    '/dignitariesvisit',
+    '/deity-darshan-1',
+    '/deity-darshan-2',
+    '/deity-darshan-3',
+    '/deity',
+    '/goseva',
+    '/annadanaseva'
+  ];

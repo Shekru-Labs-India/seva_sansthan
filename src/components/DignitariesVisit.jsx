@@ -2,11 +2,12 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import EventCard from './EventCard'
-
+import Meta from './Meta'
 const DignitariesVisit = () => {
   return (
     
   <>
+  <Meta/>
   <Header/>
  
   <div className="container my-3 ">

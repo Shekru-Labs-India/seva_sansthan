@@ -2,11 +2,13 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
+import Meta from "./Meta";
 import food1 from "../assets/images/section/food-distribution1.png";
 import food2 from "../assets/images/section/food-distribution2.png";
 const AnnadanaSeva = () => {
   return (
     <>
+    <Meta />
       <Header />
 
       <div className="container mt-4">

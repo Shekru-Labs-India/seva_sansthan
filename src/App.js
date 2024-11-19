@@ -5,6 +5,7 @@ import "./assets/css/gallery.css";
 import "./assets/css/style.css";
 
 import { HashRouter, Route, Routes } from "react-router-dom";
+import { HelmetProvider } from 'react-helmet-async';
 
 import Home from "./components/Home";
 import Mission from "./components/Mission";
@@ -24,6 +25,9 @@ import AnnadanaSeva from "./components/AnnadanaSeva";
 import DeityDarshanOne from "./components/DeityDarshanOne";
 import DeityDarshanTwo from "./components/DeityDarshanTwo";
 import DeityDarshanThree from "./components/DeityDarshanThree";
+
+
+
 
 function App() {
   return (

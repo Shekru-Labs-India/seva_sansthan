@@ -152,16 +152,16 @@ const Footer = () => {
             <i className="fa-brands fa-facebook"></i>
             </Link>
             
-            <Link to="">
+            <Link to="https://www.linkedin.com/in/krishna-shiksha-seva-sansthan-5862b3339/" target='_blank'>
             <i className="fa-brands fa-linkedin"></i>
             </Link>
-            <Link to="">
+            <Link to="https://www.youtube.com/channel/UCSO2odRHavu44L7-26WmKxw" target='_blank'>
             <i className="fa-brands fa-youtube"></i>
             </Link>
             <Link to="">
             <i className="fa-brands fa-google"></i>
             </Link>
-            <Link to="">
+            <Link to="https://www.instagram.com/krishnashikshasevasansthan/" target='_blank'>
             <i className="fa-brands fa-instagram"></i>
             </Link>
             

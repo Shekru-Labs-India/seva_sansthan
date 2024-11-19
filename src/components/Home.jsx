@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import hero4 from "../assets/images/hero/hero-bg-4.jpg";
@@ -6,18 +6,84 @@ import hero3 from "../assets/images/hero/hero-bg-3.jpg";
 import hero2 from "../assets/images/hero/hero-bg-2.jpg";
 
 import background from "../assets/images/avatar/background-1.png";
-import team01 from '../assets/images/icons/about01.png'
+import team01 from "../assets/images/icons/about01.png";
 
-import team02 from '../assets/images/icons/about02.png'
-import team1 from '../assets/images/sansthan/image1 (9).jpeg'
-import team2 from '../assets/images/sansthan/image1 (23).jpeg'
-import team3 from '../assets/images/sansthan/image1 (24).jpeg'
-import team4 from '../assets/images/sansthan/image1 (25).jpeg'
+import team02 from "../assets/images/icons/about02.png";
+import team1 from "../assets/images/sansthan/image1 (9).jpeg";
+import team2 from "../assets/images/sansthan/image1 (23).jpeg";
+import team3 from "../assets/images/sansthan/image1 (24).jpeg";
+import team4 from "../assets/images/sansthan/image1 (25).jpeg";
 import EventCard from "./EventCard";
-import about from '../assets/images/section/about-pic.jpg'
+import about from "../assets/images/section/about-pic.jpg";
+import Meta from "./Meta";
+
+
 const Home = () => {
+
+
+
+  const [counters, setCounters] = useState({
+    audience: 0,
+    preachers: 0,
+    events: 0,
+    champions: 0
+  });
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          startCounting();
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    const counterSection = document.getElementById('counter');
+    if (counterSection) {
+      observer.observe(counterSection);
+    }
+
+    return () => {
+      if (counterSection) {
+        observer.unobserve(counterSection);
+      }
+    };
+  }, []);
+
+  const startCounting = () => {
+    const duration = 2000; // 2 seconds
+    const steps = 50;
+    const stepTime = duration / steps;
+
+    const targetValues = {
+      audience: 1969,
+      preachers: 999,
+      events: 389,
+      champions: 2599
+    };
+
+    let currentStep = 0;
+
+    const timer = setInterval(() => {
+      currentStep++;
+      
+      const progress = currentStep / steps;
+      setCounters({
+        audience: Math.round(targetValues.audience * progress),
+        preachers: Math.round(targetValues.preachers * progress),
+        events: Math.round(targetValues.events * progress),
+        champions: Math.round(targetValues.champions * progress)
+      });
+
+      if (currentStep === steps) {
+        clearInterval(timer);
+      }
+    }, stepTime);
+  };
   return (
     <>
+    <Meta/>
       <Header />
 
       {/* hero banner section */}
@@ -138,10 +204,9 @@ const Home = () => {
             <div className="col-xl-6 col-lg-6 order-0 order-lg-2">
               <div className="about-images">
                 <div />
-                
+
                 <img
                   src={about}
-                  
                   className=" img-fluid rounded-4 img-thumbnail"
                 />
               </div>
@@ -207,13 +272,14 @@ const Home = () => {
                       ></i>
                     </span>
                   </div>
-                  <h4 className="card-title mb-3 h3 fw-bold text-warning">We Educate</h4>
+                  <h4 className="card-title mb-3 h3 fw-bold text-warning">
+                    We Educate
+                  </h4>
                   <p className="card-text text-muted mb-4">
                     The organization runs schools and educational institutions
                     that promote Hindu culture and values, as well as a broader
                     education.
                   </p>
-                  
                 </div>
               </div>
             </div>
@@ -237,13 +303,14 @@ const Home = () => {
                       ></i>
                     </span>
                   </div>
-                  <h4 className="card-title mb-3 h3 fw-bold text-warning">We Help</h4>
+                  <h4 className="card-title mb-3 h3 fw-bold text-warning">
+                    We Help
+                  </h4>
                   <p className="card-text text-muted mb-4">
                     ISKCON has helped to build a sense of community among its
                     followers, providing a supportive environment for spiritual
                     growth and development.
                   </p>
-
                 </div>
               </div>
             </div>
@@ -267,14 +334,14 @@ const Home = () => {
                       ></i>
                     </span>
                   </div>
-                  <h4 className="card-title mb-3 h3 fw-bold text-warning">We Feed</h4>
+                  <h4 className="card-title mb-3 h3 fw-bold text-warning">
+                    We Feed
+                  </h4>
                   <p className="card-text text-muted mb-4">
                     The organization runs various charitable initiatives, such
                     as food for life programs that provide meals to those in
                     need.
                   </p>
-
-                  
                 </div>
               </div>
             </div>
@@ -298,13 +365,14 @@ const Home = () => {
                       ></i>
                     </span>
                   </div>
-                  <h4 className="card-title mb-3 h3 fw-bold text-warning">We Celebrate</h4>
+                  <h4 className="card-title mb-3 h3 fw-bold text-warning">
+                    We Celebrate
+                  </h4>
                   <p className="card-text text-muted mb-4">
                     We Celebrate ISKCON holds numerous festivals and
                     celebrations throughout the year, which serve as a means of
                     spreading Krishna Consciousness across the world.
                   </p>
-                  
                 </div>
               </div>
             </div>
@@ -363,8 +431,9 @@ const Home = () => {
                   />
                 </figure>
                 <div className="text-center p-3 pb-0">
-                  <p className="fs-5 mb-3 fw-bold text-warning" >Chandaka Siddha</p>
-                  
+                  <p className="fs-5 mb-3 fw-bold text-warning">
+                    Chandaka Siddha
+                  </p>
                 </div>
               </div>
             </div>
@@ -383,7 +452,6 @@ const Home = () => {
                 </figure>
                 <div className="text-center p-3 pb-0">
                   <p className="fs-5 mb-3 fw-bold text-warning">Aśvajit Doe</p>
-                  
                 </div>
               </div>
             </div>
@@ -402,7 +470,6 @@ const Home = () => {
                 </figure>
                 <div className="text-center p-3 pb-0">
                   <p className="fs-5 mb-3 fw-bold text-warning">Ananda Doe</p>
-                      
                 </div>
               </div>
             </div>
@@ -421,7 +488,6 @@ const Home = () => {
                 </figure>
                 <div className="text-center p-3 pb-0">
                   <p className="fs-5 mb-3 fw-bold text-warning">Angulimala</p>
-                  
                 </div>
               </div>
             </div>
@@ -430,11 +496,11 @@ const Home = () => {
         </div>
       </section>
       {/* best counts section */}
-      <section className="counts py-8" style={{ position: 'relative' }}>
+      <section className="counts py-8" style={{ position: "relative" }}>
         {/* Dark overlay */}
-        <div 
+        <div
           style={{
-            position: 'absolute',
+            position: "absolute",
             top: 0,
             left: 0,
             right: 0,
@@ -443,9 +509,9 @@ const Home = () => {
             zIndex: 1,
           }}
         />
-        
+
         {/* Existing content - now with higher z-index */}
-        <div className="container" style={{ position: 'relative', zIndex: 2 }}>
+        <div className="container" style={{ position: "relative", zIndex: 2 }}>
           <div className="row">
             <div className="col-12 col-lg-12 mb-5 mb-lg-0 text-center">
               <h2 className="display-2 mb-3 head theme-text-white">
@@ -458,11 +524,8 @@ const Home = () => {
               <div className="col-12 col-sm-6 col-lg-6 col-xl-3 mb-5 mb-xl-0">
                 <div className="list align-items-center">
                   <div className="con">
-                    <span
-                      className="fs-1 font-black mb-2 counter-value"
-                      data-count={1969}
-                    >
-                      0
+                    <span className="fs-1 font-black mb-2">
+                      {counters.audience}
                     </span>
                     <span className="fs-1 font-black ms-1">+</span>
                     <p className="mb-0 theme-text-primary fw-bold">
@@ -474,15 +537,12 @@ const Home = () => {
               <div className="col-12 col-sm-6 col-lg-6 col-xl-3 mb-5 mb-xl-0">
                 <div className="list align-items-center">
                   <div className="con">
-                    <span
-                      className="fs-1 font-black mb-2 counter-value"
-                      data-count={999}
-                    >
-                      0
+                    <span className="fs-1 font-black mb-2">
+                      {counters.preachers}
                     </span>
                     <span className="fs-1 font-black ms-1">+</span>
                     <p className="mb-0 theme-text-primary fw-bold">
-                      Qualified Prechers
+                      Qualified Preachers
                     </p>
                   </div>
                 </div>
@@ -490,11 +550,8 @@ const Home = () => {
               <div className="col-12 col-sm-6 col-lg-6 col-xl-3 mb-5 mb-xl-0">
                 <div className="list align-items-center">
                   <div className="con">
-                    <span
-                      className="fs-1 font-black mb-2 counter-value"
-                      data-count={389}
-                    >
-                      0
+                    <span className="fs-1 font-black mb-2">
+                      {counters.events}
                     </span>
                     <span className="fs-1 font-black ms-1">+</span>
                     <p className="mb-0 theme-text-primary fw-bold">
@@ -506,11 +563,8 @@ const Home = () => {
               <div className="col-12 col-sm-6 col-lg-6 col-xl-3 mb-5 mb-xl-0">
                 <div className="list align-items-center">
                   <div className="con">
-                    <span
-                      className="fs-1 font-black mb-2 counter-value"
-                      data-count={2599}
-                    >
-                      0
+                    <span className="fs-1 font-black mb-2">
+                      {counters.champions}
                     </span>
                     <span className="fs-1 font-black ms-1">+</span>
                     <p className="mb-0 theme-text-primary fw-bold">

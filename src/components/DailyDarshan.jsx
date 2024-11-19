@@ -1,12 +1,14 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import Meta from './Meta'
 import about from '../assets/images/section/about-pic.jpg'
 
 const DailyDarshan = () => {
   return (
    
    <>
+   <Meta/>
    <Header/>
 
    <div className="container my-5">

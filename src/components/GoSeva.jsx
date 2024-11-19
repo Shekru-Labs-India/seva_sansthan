@@ -2,11 +2,13 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import EventCard from './EventCard'
+import Meta from './Meta'
 
 const GoSeva = () => {
   return (
     
     <>
+  <Meta/>
   <Header/>
   
   <>

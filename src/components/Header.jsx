@@ -60,17 +60,21 @@ const Header = () => {
               </div>
               <div className="col-12 col-md-4">
                 <div className="d-flex social justify-content-center justify-content-md-end">
-                  <Link to="" className="fs-5 pe-3">
+                  <Link to="" className="fs-5 pe-3" target="_blank">
                     <i className="fa-brands fa-facebook"></i>
                   </Link>
-                  <Link to="" className="fs-5 pe-3">
-                    <i className="fa-brands fa-x-twitter"></i>
-                  </Link>
-                  <Link to="" className="fs-5 pe-3">
+                  <Link to="https://www.linkedin.com/in/krishna-shiksha-seva-sansthan-5862b3339/" className="fs-5 pe-3" target="_blank">
                     <i className="fa-brands fa-linkedin"></i>
                   </Link>
-                  <Link to="" className="fs-5">
+                  <Link to="https://www.youtube.com/channel/UCSO2odRHavu44L7-26WmKxw" className="fs-5 pe-3" target="_blank">
                     <i className="fa-brands fa-youtube"></i>
+                  </Link>
+                  <Link to="" className="fs-5 pe-3"> 
+                    <i className="fa-brands fa-google"></i>
+                  </Link>
+
+                  <Link to="https://www.instagram.com/krishnashikshasevasansthan/" className="fs-5" target="_blank">
+                    <i className="fa-brands fa-instagram"></i>
                   </Link>
                 </div>
               </div>
