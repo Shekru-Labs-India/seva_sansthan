@@ -11,7 +11,7 @@ const Mission = () => {
   <Meta/>
   <Header/>
   {/* blog left sidebar section */}
-  <section className="blog py-8">
+  <section className="blog pt-4 pb-0">
     <div className="container">
       <div className="row animate__animated wow animate__fadeInUp">
         {/* blog section */}
@@ -20,7 +20,7 @@ const Mission = () => {
             <div className="col-12 col-lg-12 mb-4">
               <div className="row g-0">
                 <div className="overflow-hidden position-relative theme-border-radius col-12">
-                  <h2 className="text-primary">
+                  <h2 className="text-warning">
                     {" "}
                     We are trying to give human society an opportunity for a
                     life of happiness, good health, peace of mind and all good
@@ -29,7 +29,7 @@ const Mission = () => {
                   <figure className="mb-0">
                     <img
                       src="https://www.iskconbangalore.org/wp-content/uploads/2015/12/s01-our-mission.jpg"
-                      className="img-fluid"
+                      className="img-fluid img-thumbnail rounded-4 "
                       alt="news articles"
                     />
                   </figure>

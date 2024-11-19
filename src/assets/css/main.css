@@ -88,7 +88,7 @@ input::placeholder {
 }
 @media (max-width: 1200px) {
   .header-area {
-    padding: 25px 0;
+    padding: 15px 0;
   }
 }
 .header-area .nav-toggle {
@@ -233,7 +233,7 @@ input::placeholder {
   font-weight: bold;
 }
 .offCanvas-box .box-body .content .contact-box .list li {
-  color: #e8e8e8;
+  
   position: relative;
   padding-left: 1rem;
   margin: 0 0 1rem;
@@ -258,7 +258,7 @@ input::placeholder {
   margin: 0 0;
   font-size: 0.875rem;
   text-align: center;
-  color: #ffffff;
+  
 }
 .offCanvas-box .box-body .copyright p span {
   color: #FF921C;
@@ -506,7 +506,7 @@ header .social-links li a:hover {
 }
 .newsletter p {
   margin: 0 0 1rem 0;
-  color: #e8e8e8;
+  
 }
 
 .info-top {
@@ -737,7 +737,6 @@ header .social-links li a:hover {
   position: relative;
   padding: 2rem 1.5rem;
   text-align: left;
-  border-bottom: 1px solid #313131;
 }
 .mobile-menu .mobile-menu-box .nav-brand img {
   max-width: 150px;
@@ -1708,7 +1707,7 @@ blockquote cite::before {
   position: relative;
   background-color: transparent;
   height: 100% !important;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 1.25rem;
   overflow: hidden;
 }

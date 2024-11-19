@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import about from '../assets/images/section/about-pic.jpg'
 
 const DailyDarshan = () => {
   return (
@@ -10,26 +11,28 @@ const DailyDarshan = () => {
 
    <div className="container my-5">
   {/* Gallery Title */}
-  <h2 className="text-primary">
+  <h2 className="text-warning">
     Daily Darshan - ISKCON Sri Radha Krishna Temple, Bangalore
   </h2>
-  {/* Row of Images */}
-  <div className="d-flex flex-wrap">
+  
+  <div className="row">
+    <div className=" col-lg-6">
     <img
-      src="https://www.iskconbangalore.org/wp-content/uploads/2024/11/IMG-20241112-WA0023-819x1024.jpg"
-      width={400}
-      height={480}
-      className="me-3 rounded"
+      src={about}
+      
+      className=" rounded-4 img-fluid img-thumbnail"
       alt="Image 1"
     />
+    </div>
+    <div className="col-12 col-lg-6">
     <img
-      src="https://www.iskconbangalore.org/wp-content/uploads/2024/11/IMG-20241112-WA0022-819x1024.jpg"
-      width={400}
-      height={480}
-      className="rounded"
+      src={about}
+      
+      className="rounded-4 img-fluid img-thumbnail"
       alt="Image 2"
     />
-    {/* Add more images as needed */}
+    </div>
+    
   </div>
 </div>
 

@@ -1,10 +1,8 @@
-
 import "./assets/css/main.css";
 import "./assets/css/offcanvas.css";
 
 import "./assets/css/gallery.css";
-import './assets/css/style.css';
-
+import "./assets/css/style.css";
 
 import { HashRouter, Route, Routes } from "react-router-dom";
 
@@ -23,41 +21,37 @@ import DignitariesVisit from "./components/DignitariesVisit";
 import DeityDarshan from "./components/DeityDarshan";
 import GoSeva from "./components/GoSeva";
 import AnnadanaSeva from "./components/AnnadanaSeva";
-
-
+import DeityDarshanOne from "./components/DeityDarshanOne";
+import DeityDarshanTwo from "./components/DeityDarshanTwo";
+import DeityDarshanThree from "./components/DeityDarshanThree";
 
 function App() {
   return (
-   
-   <>
-   <HashRouter>
+    <>
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/mission" element={<Mission />} />
+          <Route path="/objective" element={<Objectives />} />
+          <Route path="/governance" element={<Governance />} />
+          <Route path="/leadership" element={<Leadership />} />
+          <Route path="/fooddistribution" element={<FoodDistribution />} />
+          <Route path="/cowprotection" element={<CowProtection />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/dailydarshan" element={<DailyDarshan />} />
+          <Route path="/costume" element={<Costume />} />
+          <Route path="/dignitariesvisit" element={<DignitariesVisit />} />
+          <Route path="/deity-darshan-1" element={<DeityDarshanOne />} />
+          <Route path="/deity-darshan-2" element={<DeityDarshanTwo />} />
+          <Route path="/deity-darshan-3" element={<DeityDarshanThree />} />
 
-   <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/mission" element={<Mission />} />
-                <Route path="/objective" element={<Objectives />} />
-                <Route path="/governance" element={<Governance />} />
-                <Route path="/leadership" element={<Leadership />} />
-                <Route path="/fooddistribution" element={<FoodDistribution />} />
-                <Route path="/cowprotection" element={<CowProtection />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/events" element={<Events />} />
-                <Route path="/dailydarshan" element={<DailyDarshan />} />
-                <Route path="/costume" element={<Costume />} />
-                <Route path="/dignitariesvisit" element={<DignitariesVisit />} />
-                
-
-                <Route path="/deity" element={<DeityDarshan />} />
-                <Route path="/goseva" element={<GoSeva />} />
-                <Route path="/annadanaseva" element={<AnnadanaSeva />} />
-                
-
-
-   </Routes>
-
-   </HashRouter>
-   </>
-
+          <Route path="/deity" element={<DeityDarshan />} />
+          <Route path="/goseva" element={<GoSeva />} />
+          <Route path="/annadanaseva" element={<AnnadanaSeva />} />
+        </Routes>
+      </HashRouter>
+    </>
   );
 }
 

@@ -3,6 +3,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Meta from './Meta'
 import EventCard from './EventCard'
+import image42 from '../assets/images/sansthan/image1 (42).jpeg'
 
 const FoodDistribution = () => {
   return (

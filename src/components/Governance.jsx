@@ -10,14 +10,14 @@ const Governance = () => {
     <Meta/>
     <Header/>
 
-    <section className="about-sec py-8">
+    <section className="about-sec pt-4 pb-0">
     <div className="container">
       <div className="row justify-content-center align-items-center">
         <div className="col-xl-6 col-lg-6 col-md-10">
-          <p className="mb-3 text-primary fs-5 fw-bold">
+          <p className="mb-3 text-warning fs-5 fw-bold">
           Governing Council
           </p>
-          <p className="mb-3  fs-5 fw-bold">Madhu Pandit Dasa</p>
+          <p className="mb-3  fs-5 text-warning fw-bold">Madhu Pandit Dasa</p>
           <p className="mb-3 text-justify lh-lg">
           Madhu Pandit Dasa was born in Nagercoil, Tamil Nadu. He
                       became a full-time member of ISKCON in 1981 while doing his
@@ -49,12 +49,12 @@ const Governance = () => {
                       Award by IIT-Bombay.
           </p>
         </div>
-        <div className="col-xl-6 col-lg-6 order-0 order-lg-2">
+        <div className="col-xl-6 col-lg-6 order-0 order-lg-2 text-center">
           <div>
             <img
               src="https://www.iskconbangalore.org/wp-content/uploads/2021/07/madhu-pandita-dasa.jpeg"
               alt="image"
-              className="main-pic "
+              className="main-pic img-thumbnail rounded-4 img-fluid object-fit-cover"
             />
           </div>
         </div>

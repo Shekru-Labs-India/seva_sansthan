@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import EventCard from './EventCard'
+import about from '../assets/images/section/about-pic.jpg'
 const Costume = () => {
   return (
     
@@ -11,15 +12,15 @@ const Costume = () => {
   <div className="container my-5">
   <div className="row">
     {/* Card 1 */}
-    <div className="col-md-3">
-      <div className="card" style={{ width: "100%" }}>
+    <div className="col-lg-3 mb-3 mb-lg-0">
+      <div className="card border border-warning rounded-4 shadow-lg" >
         <img
           src="https://www.iskconbangalore.org/wp-content/uploads/2022/08/deepotsava-thumb.jpg"
           className="card-img-top"
           alt="..."
         />
         <div className="card-body">
-          <h5 className="card-title text-primary">
+          <h5 className="card-title text-warning">
             Deepotsava – 17 Oct – 15 Nov 2024
           </h5>
           <p className="card-text">
@@ -32,15 +33,15 @@ const Costume = () => {
       </div>
     </div>
     {/* Card 2 */}
-    <div className="col-md-3">
-      <div className="card" style={{ width: "100%" }}>
+    <div className="col-lg-3 mb-3 mb-lg-0 ">
+      <div className="card border border-warning rounded-4 shadow-lg" >
         <img
-          src="https://www.iskconbangalore.org/wp-content/uploads/2022/08/Monthly-Silver-Jubilee-Celebrations-Thumbnail.jpg"
+          src={about}
           className="card-img-top"
           alt="..."
         />
         <div className="card-body">
-          <h5 className="card-title">Monthly Silver Jubilee Celebrations</h5>
+          <h5 className="card-title text-warning">Monthly Silver Jubilee Celebrations</h5>
           <p className="card-text">
             ISKCON Bangalore commemorates a significant milestone, marking 25
             years of service and blessings to the world. Over the course of its
@@ -51,15 +52,15 @@ const Costume = () => {
       </div>
     </div>
     {/* Card 3 */}
-    <div className="col-md-3">
-      <div className="card" style={{ width: "100%" }}>
+    <div className="col-lg-3 mb-3 mb-lg-0">
+      <div className="card border border-warning rounded-4 shadow-lg" >
         <img
           src="https://www.iskconbangalore.org/wp-content/uploads/2022/10/gita-jayanti-thumb-258x145.jpg"
           className="card-img-top"
           alt="..."
         />
         <div className="card-body">
-          <h5 className="card-title">Gita Jayanti – 11 Dec 2024</h5>
+          <h5 className="card-title text-warning">Gita Jayanti – 11 Dec 2024</h5>
           <p className="card-text">
             Gita Jayanti is the auspicious day of the advent of Srimad
             Bhagavad-gita. This is the day on which Lord Krishna imparted the
@@ -69,15 +70,15 @@ const Costume = () => {
       </div>
     </div>
     {/* Card 4 */}
-    <div className="col-md-3">
-      <div className="card" style={{ width: "100%" }}>
+    <div className="col-lg-3 mb-3 mb-lg-0">
+      <div className="card border border-warning rounded-4 shadow-lg" >
         <img
           src="https://www.iskconbangalore.org/wp-content/uploads/2022/08/VE-thumbnail-1-258x145.jpg"
           className="card-img-top"
           alt="..."
         />
         <div className="card-body">
-          <h5 className="card-title">Vaikuntha Ekadashi – 10 Jan 2025</h5>
+          <h5 className="card-title text-warning">Vaikuntha Ekadashi – 10 Jan 2025</h5>
           <p className="card-text">
             Vaikuntha Ekadashi is an important festival celebrated every year.
             Ekadashi is the eleventh day of the fortnight of the waxing or
@@ -94,15 +95,15 @@ const Costume = () => {
 
   <div className="row">
     {/* Card 1 */}
-    <div className="col-md-3">
-      <div className="card" style={{ width: "100%" }}>
+    <div className="col-lg-3 mb-3 mb-lg-0">
+      <div className="card border border-warning rounded-4 shadow-lg" >
         <img
           src="https://www.iskconbangalore.org/wp-content/uploads/2024/11/diappearance-day-of-sp-300x169.jpg"
           className="card-img-top"
           alt="..."
         />
         <div className="card-body">
-          <h5 className="card-title text-primary">
+          <h5 className="card-title text-warning">
             Srila Prabhupada’s 47th Disappearance Day
           </h5>
           <p className="card-text">
@@ -115,15 +116,15 @@ const Costume = () => {
       </div>
     </div>
     {/* Card 2 */}
-    <div className="col-md-3">
-      <div className="card" style={{ width: "100%" }}>
+    <div className="col-lg-3 mb-3 mb-lg-0">
+      <div className="card border border-warning rounded-4 shadow-lg" >
         <img
           src="https://www.iskconbangalore.org/wp-content/uploads/2024/11/govardhan-puja-vkh-260x145.jpg"
           className="card-img-top"
           alt="..."
         />
         <div className="card-body">
-          <h5 className="card-title">
+          <h5 className="card-title text-warning">
             Sri Govardhana Puja 2024 Celebrations at ISKCON Bangalore Temples
           </h5>
           <p className="card-text">
@@ -136,15 +137,15 @@ const Costume = () => {
       </div>
     </div>
     {/* Card 3 */}
-    <div className="col-md-3">
-      <div className="card" style={{ width: "100%" }}>
+    <div className="col-lg-3 mb-3 mb-lg-0">
+      <div className="card border border-warning rounded-4 shadow-lg" >
         <img
           src="https://www.iskconbangalore.org/wp-content/uploads/2024/09/harinam-diksha-sep-15-300x169.jpg"
           className="card-img-top"
           alt="..."
         />
         <div className="card-body">
-          <h5 className="card-title">
+          <h5 className="card-title text-warning">
             Harinama Diksha on Sri Vamana Jayanti 2024 at ISKCON Bangalore
           </h5>
           <p className="card-text">
@@ -157,15 +158,15 @@ const Costume = () => {
       </div>
     </div>
     {/* Card 4 */}
-    <div className="col-md-3">
-      <div className="card" style={{ width: "100%" }}>
+    <div className="col-lg-3 mb-3 mb-lg-0">
+      <div className="card border border-warning rounded-4 shadow-lg" >
         <img
           src="https://www.iskconbangalore.org/wp-content/uploads/2024/09/jbs-alankara-260x145.jpg"
           className="card-img-top"
           alt="..."
         />
         <div className="card-body">
-          <h5 className="card-title">
+          <h5 className="card-title text-warning">
             4-Day Janmashtami Alankara for Sri Jagannatha Baladeva Subhadra
           </h5>
           <p className="card-text">

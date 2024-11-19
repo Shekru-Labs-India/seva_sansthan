@@ -13,7 +13,7 @@ const Objectives = () => {
    <Header/>
 
   {/* blog left sidebar section */}
-  <section className="blog py-8">
+  <section className="blog pt-4 pb-0">
     <div className="container">
       <div className="row animate__animated wow animate__fadeInUp">
         {/* blog section */}
@@ -22,15 +22,15 @@ const Objectives = () => {
             <div className="col-12 col-lg-12 mb-4">
               <div className="row g-0">
                 <div className="overflow-hidden position-relative theme-border-radius col-12">
-                  <h2 className="text-primary">
+                    <h2 className="text-warning">
                     ISKCON Bangalore is a charitable society with the following
                     objectives:
                   </h2>
-                  <h3 className="text-primary">Spreading the Holy Name</h3>
+                  <h3 className="text-warning">Spreading the Holy Name</h3>
                   <figure className="mb-0">
                     <img
                       src="https://www.iskconbangalore.org/wp-content/uploads/2016/03/o01-spreading-the-holy-name.jpg"
-                      className="img-fluid"
+                      className="img-fluid img-thumbnail rounded-4 object-fit-cover"
                       alt="news articles"
                     />
                   </figure>
@@ -70,13 +70,13 @@ const Objectives = () => {
                       </li>
                     </ul>
                     <div className="overflow-hidden position-relative theme-border-radius col-12">
-                      <h2 className="text-primary">
+                      <h2 className="text-warning">
                         Gorgeous Deity-Worship and Opulent Festivals
                       </h2>
                       <figure className="mb-0">
                         <img
                           src="https://www.iskconbangalore.org/wp-content/uploads/2016/03/o01-deity-worship.jpg"
-                          className="img-fluid"
+                          className="img-fluid img-thumbnail rounded-4 object-fit-cover"
                           alt="news articles"
                         />
                       </figure>
@@ -105,13 +105,13 @@ const Objectives = () => {
                     </p>
                     <EventCard/>
                     <div className="overflow-hidden position-relative theme-border-radius col-12">
-                      <h2 className="text-primary">
+                          <h2 className="text-warning">
                         Create Awareness about Srila Prabhupada
                       </h2>
                       <figure className="mb-0">
                         <img
                           src="https://www.iskconbangalore.org/wp-content/uploads/2017/07/srila-prabhupada-awerness.jpg"
-                          className="img-fluid"
+                          className="img-fluid img-thumbnail rounded-4 object-fit-cover"
                           alt="news articles"
                         />
                       </figure>
@@ -141,13 +141,13 @@ const Objectives = () => {
                       about him.
                     </p>
                     <div className="overflow-hidden position-relative theme-border-radius col-12">
-                      <h2 className="text-primary">
+                        <h2 className="text-warning">
                         Distribution of Scriptures
                       </h2>
                       <figure className="mb-0">
                         <img
                           src="https://www.iskconbangalore.org/wp-content/uploads/2016/03/o01-distribution-of-scriptures.jpg"
-                          className="img-fluid"
+                          className="img-fluid img-thumbnail rounded-4 object-fit-cover"
                           alt="news articles"
                         />
                       </figure>
@@ -175,11 +175,11 @@ const Objectives = () => {
                     </p>
                     <EventCard/>
                     <div className="overflow-hidden position-relative theme-border-radius col-12">
-                      <h2 className="text-primary">Missionary Development</h2>
+                      <h2 className="text-warning">Missionary Development</h2>
                       <figure className="mb-0">
                         <img
                           src="https://www.iskconbangalore.org/wp-content/uploads/2016/03/o01-missionary-development-.jpg"
-                          className="img-fluid"
+                          className="img-fluid img-thumbnail rounded-4 object-fit-cover"
                           alt="news articles"
                         />
                       </figure>
@@ -200,11 +200,11 @@ const Objectives = () => {
                       and serve the mission for the greater good of the society.
                     </p>
                     <div className="overflow-hidden position-relative theme-border-radius col-12">
-                      <h2 className="text-primary">Resource Mobilization</h2>
+                      <h2 className="text-warning">Resource Mobilization</h2>
                       <figure className="mb-0">
                         <img
                           src="https://www.iskconbangalore.org/wp-content/uploads/2016/03/o01-fund-raising.jpg"
-                          className="img-fluid"
+                          className="img-fluid img-thumbnail rounded-4 object-fit-cover"
                           alt="news articles"
                         />
                       </figure>
@@ -230,13 +230,13 @@ const Objectives = () => {
                     </p>
                     <EventCard/>
                     <div className="overflow-hidden position-relative theme-border-radius col-12">
-                      <h2 className="text-primary">
+                      <h2 className="text-warning">
                         To increase Krishna Consciousness
                       </h2>
                       <figure className="mb-0">
                         <img
                           src="https://www.iskconbangalore.org/wp-content/uploads/2016/03/o01-increase-krishna-consciousness.jpg"
-                          className="img-fluid"
+                          className="img-fluid img-thumbnail rounded-4 object-fit-cover"
                           alt="news articles"
                         />
                       </figure>
@@ -261,13 +261,13 @@ const Objectives = () => {
                       these programs and how you can be part of this.
                     </p>
                     <div className="overflow-hidden position-relative theme-border-radius col-12">
-                      <h2 className="text-primary">
+                      <h2 className="text-warning">
                         Special Purpose Enterprises
                       </h2>
                       <figure className="mb-0">
                         <img
                           src="https://www.iskconbangalore.org/wp-content/uploads/2018/05/devotional-item.jpg"
-                          className="img-fluid"
+                          className="img-fluid img-thumbnail rounded-4 object-fit-cover"
                           alt="news articles"
                         />
                       </figure>
@@ -293,11 +293,11 @@ const Objectives = () => {
                     </p>
                     <EventCard/>
                     <div className="overflow-hidden position-relative theme-border-radius col-12">
-                      <h2 className="text-primary">Projects</h2>
+                      <h2 className="text-warning">Projects</h2>
                       <figure className="mb-0">
                         <img
                           src="https://www.iskconbangalore.org/wp-content/uploads/2016/03/o01-projects.jpg"
-                          className="img-fluid"
+                          className="img-fluid img-thumbnail rounded-4 object-fit-cover"
                           alt="news articles"
                         />
                       </figure>
@@ -328,13 +328,13 @@ const Objectives = () => {
                       Bengaluru.
                     </p>
                     <div className="overflow-hidden position-relative theme-border-radius col-12">
-                      <h2 className="text-primary">
+                      <h2 className="text-warning">
                         Life in Harmony with Nature
                       </h2>
                       <figure className="mb-0">
                         <img
                           src="https://www.iskconbangalore.org/wp-content/uploads/2016/03/o01-life-in-harmony-with-nature.jpg"
-                          className="img-fluid"
+                          className="img-fluid img-thumbnail rounded-4 object-fit-cover"
                           alt="news articles"
                         />
                       </figure>
@@ -357,11 +357,11 @@ const Objectives = () => {
                       Hare Krishna Hill which maintains around 25 cows.
                     </p>
                     <div className="overflow-hidden position-relative theme-border-radius col-12">
-                      <h2 className="text-primary">Prasadam Distribution</h2>
-                      <figure className="mb-0">
+                      <h2 className="text-warning">Prasadam Distribution</h2>
+                      <figure className="mb-0 ">
                         <img
                           src="https://www.iskconbangalore.org/wp-content/uploads/2016/03/o01-prasadam-distribution.jpg"
-                          className="img-fluid"
+                          className="img-fluid img-thumbnail rounded-4 object-fit-cover"
                           alt="news articles"
                         />
                       </figure>

@@ -7,11 +7,12 @@ import hero2 from "../assets/images/hero/hero-bg-2.jpg";
 
 import background from "../assets/images/avatar/background-1.png";
 import team01 from '../assets/images/icons/about01.png'
+
 import team02 from '../assets/images/icons/about02.png'
-import team1 from '../assets/images/team/team01.png'
-import team2 from '../assets/images/team/team02.png'
-import team3 from '../assets/images/team/team03.png'
-import team4 from '../assets/images/team/team04.png'
+import team1 from '../assets/images/sansthan/image1 (9).jpeg'
+import team2 from '../assets/images/sansthan/image1 (23).jpeg'
+import team3 from '../assets/images/sansthan/image1 (24).jpeg'
+import team4 from '../assets/images/sansthan/image1 (25).jpeg'
 import EventCard from "./EventCard";
 import about from '../assets/images/section/about-pic.jpg'
 const Home = () => {
@@ -356,16 +357,14 @@ const Home = () => {
               <div className="team-card border border-warning rounded-4 shadow-lg">
                 <figure className="mb-0 overflow-hidden">
                   <img
-                    src={team1}
-                    className="img-fluid"
+                    src={team4}
+                    className="img-fluid object-fit-cover rounded-4"
                     alt="Qotes icon"
                   />
                 </figure>
                 <div className="text-center p-3 pb-0">
                   <p className="fs-5 mb-3 fw-bold text-warning" >Chandaka Siddha</p>
-                  <p className="mb-0 theme-text-accent-two">
-                    Protestant Clergy
-                  </p>
+                  
                 </div>
               </div>
             </div>
@@ -378,13 +377,13 @@ const Home = () => {
                 <figure className="mb-0 overflow-hidden">
                   <img
                     src={team2}
-                    className="img-fluid"
+                    className="img-fluid object-fit-cover rounded-4"
                     alt="Qotes icon"
                   />
                 </figure>
                 <div className="text-center p-3 pb-0">
                   <p className="fs-5 mb-3 fw-bold text-warning">Aśvajit Doe</p>
-                  <p className="mb-0 theme-text-accent-two">Senior Postor</p>
+                  
                 </div>
               </div>
             </div>
@@ -397,13 +396,13 @@ const Home = () => {
                 <figure className="mb-0 overflow-hidden">
                   <img
                     src={team3}
-                    className="img-fluid"
+                    className="img-fluid object-fit-cover rounded-4"
                     alt="Qotes icon"
                   />
                 </figure>
                 <div className="text-center p-3 pb-0">
                   <p className="fs-5 mb-3 fw-bold text-warning">Ananda Doe</p>
-                  <p className="mb-0 theme-text-accent-two">Bhikkhu</p>
+                      
                 </div>
               </div>
             </div>
@@ -415,14 +414,14 @@ const Home = () => {
               <div className="team-card border border-warning rounded-4 shadow-lg">
                 <figure className="mb-0 overflow-hidden">
                   <img
-                    src={team4}
-                    className="img-fluid"
+                    src={team1}
+                    className="img-fluid object-fit-cover rounded-4"
                     alt="Qotes icon"
                   />
                 </figure>
                 <div className="text-center p-3 pb-0">
                   <p className="fs-5 mb-3 fw-bold text-warning">Angulimala</p>
-                  <p className="mb-0 theme-text-accent-two">Buddhism Speaker</p>
+                  
                 </div>
               </div>
             </div>
@@ -440,8 +439,8 @@ const Home = () => {
             left: 0,
             right: 0,
             bottom: 0,
-            backgroundColor: 'rgba(0, 0, 0, 0.5)', // Adjust opacity as needed
-            zIndex: 1
+            backgroundColor: "rgba(0, 0, 0, 0.5)",
+            zIndex: 1,
           }}
         />
         

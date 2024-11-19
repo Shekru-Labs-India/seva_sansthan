@@ -10,14 +10,14 @@ const Leadership = () => {
     <Meta/>
     <Header/>
   {/* about us section */}
-  <section className="about-sec py-4">
+  <section className="about-sec pt-4 pb-0">
     <div className="container">
       <div className="row justify-content-center align-items-center">
         <div className="col-xl-6 col-lg-6 col-md-10">
-          <p className="mb-3 text-primary fs-5 fw-bold">
+          <p className="mb-3 text-warning fs-5 fw-bold">
             Sri Madhu Pandit Dasa
           </p>
-          <p className="mb-3  fs-5 fw-bold">President, ISKCON Bangalore</p>
+          <p className="mb-3  fs-5 text-warning fw-bold">President, ISKCON Bangalore</p>
           <p className="mb-3 text-justify lh-lg">
             Madhu Pandit Dasa was born in Nagercoil, Tamil Nadu. He became a
             full-time member of ISKCON in 1981 while doing his M.Tech in Civil
@@ -41,12 +41,12 @@ const Leadership = () => {
             Distinguished Alumnus Award by IIT-Bombay.
           </p>
         </div>
-        <div className="col-xl-6 col-lg-6 order-0 order-lg-2">
+        <div className="col-xl-6 col-lg-6 order-0 order-lg-2 text-center">
           <div>
             <img
               src="https://www.iskconbangalore.org/wp-content/uploads/2024/08/SriMadhuPanditDasa-1-2.jpg"
               alt="image"
-              className="main-pic "
+              className="main-pic img-thumbnail rounded-4 img-fluid object-fit-cover"
             />
           </div>
         </div>
@@ -56,14 +56,14 @@ const Leadership = () => {
 
 <EventCard/>
 
-  <section className="about-sec py-4">
+  <section className="about-sec pt-4 pb-0">
     <div className="container">
       <div className="row justify-content-center align-items-center">
         <div className="col-xl-6 col-lg-6 col-md-10">
-          <p className="mb-3 text-primary fs-5 fw-bold">
+          <p className="mb-3 text-warning fs-5 fw-bold">
             Sri Chanchalapathi Dasa
           </p>
-          <p className="mb-3  fs-5 fw-bold">
+          <p className="mb-3  fs-5 text-warning fw-bold">
             Senior Vice President, ISKCON Bangalore
           </p>
           <p className="mb-3 text-justify lh-lg">
@@ -85,12 +85,12 @@ const Leadership = () => {
             Krishna, which aired on Nickelodeon India.
           </p>
         </div>
-        <div className="col-xl-6 col-lg-6 order-0 order-lg-2">
+        <div className="col-xl-6 col-lg-6 order-0 order-lg-2 text-center">
           <div>
             <img
               src="https://www.iskconbangalore.org/wp-content/uploads/2020/01/chanchalapathi-dasa.jpg"
               alt="image"
-              className="main-pic "
+              className="main-pic img-thumbnail rounded-4 img-fluid object-fit-cover"
             />
           </div>
         </div>

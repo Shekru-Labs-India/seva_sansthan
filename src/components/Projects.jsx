@@ -30,7 +30,7 @@ const Projects = () => {
                     src="https://www.iskconbangalore.org/wp-content/uploads/2015/11/nityaannadana1.jpg"
                     width={382}
                     height={382}
-                    className="img-fluid img-thumbnail rounded-4"
+                    className="img-fluid img-thumbnail rounded-4 object-fit-cover"
                     alt="product picture"
                   />
                 </div>
@@ -54,7 +54,7 @@ const Projects = () => {
                     src="https://www.iskconbangalore.org/wp-content/uploads/2015/11/260x140.jpg"
                     width={382}
                     height={382}
-                    className="img-fluid img-thumbnail rounded-4"
+                    className="img-fluid img-thumbnail rounded-4 object-fit-cover"
                     alt="product picture"
                   />
                 </div>
@@ -78,7 +78,7 @@ const Projects = () => {
                     src="https://www.iskconbangalore.org/wp-content/uploads/2015/11/vrindavan-chandrodaya-mandir-1.jpg"
                     width={382}
                     height={382}
-                    className="img-fluid img-thumbnail rounded-4"
+                    className="img-fluid img-thumbnail rounded-4 object-fit-cover "
                     alt="product picture"
                   />
                 </div>
