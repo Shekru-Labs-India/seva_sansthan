@@ -25,11 +25,7 @@ const Footer = () => {
             className="img-fluid mb-4 logo"
             alt="Brand light"
           />
-          <p className="pe-5 mb-0 font-small lh-lg">
-            Different Buddhists believe different things, consectetur adipiscing
-            elit. Morbi fringilla dolor sed arcu cursus, id interdum dolor
-            sagittis. Class aptent taciti
-          </p>
+          
           <div className="p-1 mt-3">
             <h3 className="mt-3 h5 fw-bold mb-4">Multiple Payment Option</h3>
             <ul className="d-flex justify-content-between align-items-start">
@@ -142,7 +138,7 @@ const Footer = () => {
           <div className="mb-5">
             <span className="d-flex align-items-center fs-5">
             <i class="fa-solid fa-phone fa-shake me-3 fs-4"></i>
-              (011) - 123456 7890
+              
             </span>
           </div>
           {/* download our app end */}
@@ -172,7 +168,7 @@ const Footer = () => {
       <div className="row align-items-center mt-5">
         <div className="col-12 text-center mt-3">
           <p className="mb-0 font-small">
-            © Copyright 2024 by <a href="javascript:void(0)">Buddhism Life</a>,
+            © Copyright 2024 by <Link target='_blank' to="https://www.shekruweb.com/">Shekru Labs India Pvt.Ltd.</Link>,
             All rights reserved.
           </p>
         </div>
